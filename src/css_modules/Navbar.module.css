@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Naskh+Arabic:wght@500&family=Roboto+Slab&family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Naskh+Arabic:wght@500&family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+
+
+.textWhite{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.fontSize
+{
+    font-size: 1.4rem;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.iconColor{
+    color: blue;
+}
+
+.textColor{
+    color: rgb(255, 255, 255);
+}
+.navbartoggler{
+    color: red;
+}
+
+.nav{
+   
+   height: 15%;
+   background-color: #3012e4;
+
+  
+}
+.nav ul{
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.nav > ul > li:hover{
+  color: blue;
+}
+
+.linkhover:hover{
+    color: red;
+}
+
+.nav .navbar-nav .nav-link:hover  {
+    /* Your custom hover styles */
+    background-color: #072c52; /* Example background color */
+  }
+
+
+
+.logo{
+    height: 66px;
+    width: 67px;
+    border-radius: 33px;
+}
+
+.logoName{
+    text-align: center;
+    margin-top: 4px;
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Baloo 2", sans-serif;
+    /* font-family: "Teko", sans-serif; */
+    
+}
+
+/* Hide submenu by default */
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #343a40; /* Same as navbar color */
+    padding: 0;
+    margin-top: 5px;
+    list-style: none;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  /* Show submenu on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Display submenu */
+  }
+  
+  /* Submenu item styling */
+  .dropdown-menu .dropdown-item {
+    color: white; /* Text color */
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Hover effect for submenu items */
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #495057; /* Highlight effect */
+    color: #fff;
+  }
+  

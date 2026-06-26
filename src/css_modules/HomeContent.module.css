@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Naskh+Arabic:wght@500&family=Roboto+Slab&family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Naskh+Arabic:wght@500&family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&family=Tiro+Devanagari+Hindi&display=swap');
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 19px;
+  margin-top: -1px;
+  background-color: rgb(181, 176, 171);
+}
+
+.TextScreen {
+  bottom: 50%;
+  left: 45%;
+  position: absolute;
+  right: 50%;
+  top: 74%;
+  padding: -29px;
+  margin: -67px;
+  font-size: 14px;
+  font-weight: 800;
+  
+  white-space: nowrap;
+  
+  
+  font-family: 'Baloo 2';
+}
+
+.logo {
+  height: 139px;
+  width: 117px;
+  margin: auto;
+  display: flex;
+  border-radius: 19px;
+  animation: logoAnimation 3s ease infinite;
+  margin-top: 36px;
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  left: 30%;
+  top: 39%;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'sans-serif';
+  z-index: 1;
+}
+
+.Text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo 2", sans-serif;
+  top: -35%;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  animation: textRotate1 3s ease infinite;
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo 2", sans-serif;
+  top: -35%;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-weight: 900;
+  font-size: 2rem;
+  animation: textRotate 3s ease infinite;
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+ 
+  100% {
+    transform: rotate(360deg);
+    opacity: 1.5;
+  }
+}
+
+@keyframes textRotate {
+  0% {
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(0deg);
+    opacity: 1.5;
+  }
+  100% {
+    transform: scaleX(90%);
+    opacity: 2;
+  }
+  125% {
+    transform: scale3d(45%);
+  }
+}
+
+@keyframes textRotate1 {
+  0% {
+    transform: scaleX(30%);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(0deg);
+    opacity: 2;
+  }
+  100% {
+    transform: scaleY(80%);
+    opacity: 2;
+  }
+}

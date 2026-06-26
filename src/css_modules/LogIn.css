@@ -1,0 +1,93 @@
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  z-index: 4;
+
+  position: relative; /* Ensure relative positioning for the default state */
+
+  animation: moveOutAnimation 8s infinite ease-in-out;
+}
+@keyframes moveOutAnimation {
+  0% {
+    transform: scale(1.1) rotateZ(-74deg) translate(55vh, 0);
+  }
+
+  25% {
+    transform: scale(1.1) rotate(-14deg) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.2) rotate(132deg) translate(-79vh, 0);
+  }
+  75% {
+    transform: scale(1.1) rotateZ(360deg) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.1) rotateY(-49deg) translate(-141vh, -168vh);
+  }
+}
+
+/* Media query to adjust height for medium screens */
+@media (max-width: 1024px) {
+  .bg-image {
+    height: 80vh; /* Adjust this value as needed */
+  }
+}
+
+/* Media query to adjust height and center the image for smaller screens */
+/* Styles for screens 768px and below */
+@media (max-width: 768px) {
+  .bg-image {
+    position: absolute;
+    top: -83px;
+    left: 50%;
+    margin: 0 -53px;
+    bottom: 37px; /* This might conflict with top; consider removing */
+
+    transform: translate(-50%, -2%) rotate(45deg);
+  }
+
+  .LoginFormCard {
+    position: relative;
+    top: 117px;
+    margin-bottom: 117px;
+  }
+}
+
+/* Styles for screens 400px and below */
+@media (min-width: 400px) and (max-width: 768px) {
+  .bg-image {
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    width: 200px;
+    transform: translate(-50%, -2%) rotate(45deg);
+    margin: -35px -101px;
+  }
+
+  .signupwith {
+    position: relative;
+    margin-top: 43px;
+    padding-top: 26px;
+    top: -75px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-image {
+    /* max-width: 313px; */
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    transform: translate(-50%, -2%) rotate(45deg);
+    overflow: hidden;
+    /* transform: translate(-50%, -2%) rotate(45deg) !important; */
+    margin: -35px -101px;
+  }
+
+  .signupwith {
+    position: relative;
+    margin-top: 43px;
+    padding-top: 26px;
+    top: -75px;
+  }
+}

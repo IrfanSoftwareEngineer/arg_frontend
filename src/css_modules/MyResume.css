@@ -1,0 +1,32 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .cardBox{
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  
+  /* @media (min-width: 600px) {
+    .cardBox {
+      margin: 0 15px;
+    }
+  } */
+  
+  @media (max-width: 600px) {
+    .cardBox {
+      margin: 0 22px; /* Adjusting margin to 3px on the right and left */
+    }
+  }
+  
