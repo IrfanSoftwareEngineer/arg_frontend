@@ -14,55 +14,55 @@ backgroundCcolor:"rgb(239 243 243)"
 
 const services = [
   {
-    name: "Web App Development",
+    name: "Annealed glass",
     iconClass: "bi bi-laptop-fill",
     description:
       "We build robust, scalable, and secure web applications tailored to your business needs.",
   },
   {
-    name: "Android Development",
+    name: "Toughening glass",
     iconClass: "bi bi-phone-fill",
     description:
       "We create powerful, user-friendly Android apps to help you reach a wider audience on mobile platforms.",
   },
   {
-    name: "Resume Writing",
+    name: "Insulated glass",
     iconClass: "bi bi-file-earmark-text-fill",
     description:
       "Professional resume writing services to help you stand out in the competitive job market.",
   },
   {
-    name: "Content Writing",
+    name: "Heat Soaked Testing",
     iconClass: "bi bi-pencil-fill",
     description:
       "High-quality content writing that engages your audience and enhances your brand's voice.",
   },
   {
-    name: "Graphic Designing",
+    name: "Edge Grinding and Polishing",
     iconClass: "bi bi-brush-fill",
     description:
       "Creative graphic design services that bring your vision to life with visually appealing designs.",
   },
   {
-    name: "SEO Optimization",
+    name: "Drilling and Notching",
     iconClass: "bi bi-graph-up-arrow",
     description:
       "Improve your website's search engine rankings and drive more organic traffic to your site.",
   },
   {
-    name: "Digital Marketing",
+    name: "CNC glass processing",
     iconClass: "bi bi-megaphone-fill",
     description:
       "Expand your reach with targeted digital marketing strategies and campaigns.",
   },
   {
-    name: "Social Media Management",
+    name: "Custom Fabrication",
     iconClass: "bi bi-people-fill",
     description:
       "Manage your social media presence with consistent and engaging content to build your brand.",
   },
   {
-    name: "E-commerce Solutions",
+    name: "Quality Assurance",
     iconClass: "bi bi-bag-fill",
     description:
       "Build and manage online stores with our comprehensive e-commerce solutions.",
@@ -72,30 +72,6 @@ const services = [
     iconClass: "bi bi-lightbulb-fill",
     description:
       "Expert IT consulting services to help you leverage technology for business growth and efficiency.",
-  },
-  {
-    name: "Cloud Services",
-    iconClass: "bi bi-cloud-fill",
-    description:
-      "Scalable and reliable cloud solutions to support your business operations and data storage needs.",
-  },
-  {
-    name: "Cybersecurity",
-    iconClass: "bi bi-shield-lock-fill",
-    description:
-      "Protect your digital assets with our robust cybersecurity solutions and services.",
-  },
-  {
-    name: "Data Analysis",
-    iconClass: "bi bi-bar-chart-line-fill",
-    description:
-      "Gain insights from data analysis to make informed decisions and drive business success.",
-  },
-  {
-    name: "Mobile App Development",
-    iconClass: "bi bi-tablet-fill",
-    description:
-      "Developing apps for all mobile platforms to help you stay connected with your customers.",
   },
   {
     name: "Technical Support",
@@ -115,7 +91,7 @@ const OurServices = () => {
           <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
             <h2 className="display-5 text-center text-bold mt-0 mx-4 my-5"
             style={{fontFamily:"monospace"}}
-            >Our Services</h2>
+            >Our Processing Capabilities</h2>
          
           </div>
         </div>

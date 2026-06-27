@@ -57,39 +57,7 @@ imgAlt: "Lamination Glass",
     url:"/Career",
     
     
-  },
-
-  {
-    title: "Java Essentials for Beginners 2024",
-    text:"A comprehensive introduction to Java programming for beginners, covering object-oriented concepts, basic syntax, and building your first applications. Perfect for anyone looking to enter the world of software development." ,
-    imgSrc: java,
-    imgAlt: "Hollywood Sign on The Hill",
-    url:"/Career",
-    
-    
-  },
-  {
-    title: "FREE JavaScript for Beginners & Professionals 2024",
-    text: " A complete JavaScript course suitable for beginners and professionals alike. Learn the foundations of JavaScript, DOM manipulation, and working with APIs to build dynamic websites.",
-    imgAlt: "Skyscrapers",
-    imgSrc:javascript,
-    url:"/Career"
-  },
-  {
-    title: "Python Programming from Scratch 2024",
-    text: "Description: Learn Python, one of the most popular programming languages today, from scratch. This course covers everything from variables and data types to functions, file handling, and object-oriented programming.",
-    imgSrc: python,
-    imgAlt: "Palm Springs Road",
-   url:"/Career"
-  },
-  {
-    title: "Advanced JavaScript: Node.js and Express",
-    text: "Take your JavaScript skills to the backend with Node.js. Learn how to build fast and scalable web servers using Express.js and create full-stack applications.",
-    imgSrc: reactframework,
-    imgAlt: "Skyscrapers",
-    url:"/Career"
-  },
-  
+  }
 ];
 
 const ServiceListCardView = () => {
@@ -114,7 +82,7 @@ const ServiceListCardView = () => {
                 <p className="card-text">{card.text}</p>
                 <Link to={card.url}>
                   <button type="button" className="btn btn-danger text-center">
-                    Register Now
+                    Order Now
                   </button>
                 </Link>
               </div>

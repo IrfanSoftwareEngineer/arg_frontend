@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import React, { useEffect, useState } from "react";
-import OurTeam from "../components/OurTeam";
+import ArgsalesTeam from "../components/ArgSalesTeam";
 import OurServices from "../components/OurServices";
 import HomeContent from "../components/HomeContent";
 import Footer from "../components/Footer";
@@ -47,7 +47,7 @@ const milliseconds = minutes * 60 * 1000;
       <HomeContent></HomeContent>
       <ServiceListCardView />
       <OurServices />
-      <OurTeam />
+<ArgsalesTeam/>
       <Footer />
     </>
   );

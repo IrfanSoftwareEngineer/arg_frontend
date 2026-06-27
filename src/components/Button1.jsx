@@ -2,16 +2,14 @@ import React from "react";
 
 const Button1 = () => {
   return (
-    <>
-  
-  <div className="d-flex gap-2 justify-content-center  px-4 py-4">
-      <button className="btn btn-primary px-4 py-4 col-12 fs-1" type="button">
-        Explore More Courses
+    <div className="text-center my-4">
+      <button
+        type="button"
+        className="btn btn-warning px-5 py-3 fs-5 fw-bold rounded-pill"
+      >
+        Click for more glasses
       </button>
-    
     </div>
-   
-    </>
   );
 };
 

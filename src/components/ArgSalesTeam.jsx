@@ -1,17 +1,14 @@
 import React from 'react';
 import '../css_modules/OurTeam.css';
-// import BackgroudImg from '../assets/ArtificialIntelligence.jpg';
-
 import KamruzamaTeamLogo from "../assets/KamruzamaTeamLogo.jpg";
-// import joya from "../assets/joya.jpeg";
 import ArmanTeamLogo from "../assets/download1.jfif";
 import irfan from "../assets/logo.png";
 import ahsan from "../assets/ahsan.jpg";
 import Huzefa from "../assets/HuzefaTeamLogo.jpg";
 
+import arg_men_avatar from "../assets/arg_men_avatar.png";
 
-
-const OurTeam = () => {
+const ArgsalesTeam = () => {
 
     const Ourservices = {
       
@@ -26,14 +23,14 @@ const OurTeam = () => {
 
             <div className="container">
                 <div className="row heading heading-icon">
-                    <h2 style={{fontSize:"2rem",fontFamily:"monospace",color:"black"}}>Our Trainers</h2>
+                    <h2 style={{fontSize:"2rem",fontFamily:"monospace",color:"black"}}>Managing Director</h2>
                 </div>
                 <ul className="row">
                     <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
-                            <figure><img src={irfan} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr. Irfan</a></h3>
-                            <p>Software Engineer</p>
+                            <figure><img src={arg_men_avatar} className="img-responsive" alt="" /></figure>
+                            <h3><a href="#">Mr. Arshad pervej</a></h3>
+                            <p>Director</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -42,11 +39,11 @@ const OurTeam = () => {
 
                         </div>
                     </li>
-                    <li className="col-12 col-md-6 col-lg-3">
+                   <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
-                            <figure><img src={Huzefa} className="img-responsive" alt="" /></figure>
-                            <h3><a href="">Mr. Huzefa</a></h3>
-                            <p>Cloud Engineer</p>
+                            <figure><img src={arg_men_avatar} className="img-responsive" alt="" /></figure>
+                            <h3><a href="#">Mr. Gupta</a></h3>
+                            <p>Director</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -55,11 +52,11 @@ const OurTeam = () => {
 
                         </div>
                     </li>
-                    <li className="col-12 col-md-6 col-lg-3">
+               <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
-                            <figure><img src={KamruzamaTeamLogo} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Kamruzama Ansari</a></h3>
-                            <p>Frontend Developer</p>
+                            <figure><img src={arg_men_avatar} className="img-responsive" alt="" /></figure>
+                            <h3><a href="#">Mr. Aggarwal</a></h3>
+                            <p>Director</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -67,7 +64,7 @@ const OurTeam = () => {
                             </ul>
 
                         </div>
-                    </li> 
+                    </li>
                                   
                 </ul>
             </div>
@@ -75,4 +72,4 @@ const OurTeam = () => {
     );
 }
 
-export default OurTeam;
+export default ArgsalesTeam;
