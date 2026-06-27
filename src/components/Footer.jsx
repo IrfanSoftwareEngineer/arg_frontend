@@ -19,7 +19,7 @@ const Youtube = "https://www.youtube.com/@Irfan_Foundation";
 const Github = "https://github.com/IrfanSoftwareEngineer";
 const facebook = "https://www.facebook.com/CamelAcademyOnYouTube?mibextid=9idTr45qYp7jtedz";
 const Instagram =
-  "https://www.instagram.com/IrfanSpeak_?igsh=aXFrcDZidHV3eW9h";
+  "https://www.instagram.com/irfan_foundation_?igsh=aXFrcDZidHV3eW9h";
 
 const Footer = () => {
   return (
@@ -52,6 +52,29 @@ const Footer = () => {
                     My name is IrfanUllah Khan I am software Developer builing responsive UI for better
                     Customer Interaction and ease accessibility feel free to connect us for developing
                     better softwares.
+                    <div>
+
+                      <Link to={Youtube}
+                        target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon
+                          icon={faYoutube}
+                          size="2x"
+                          style={{ color: "Red", margin: "9px" }}
+                        />
+                      </Link>
+
+                      <Link to={Instagram}
+                        target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon
+                          icon={faInstagram}
+                          size="2x"
+
+                          style={{ color: "#e4405f", margin: "9px" }}
+                          className=" me-4"
+                        />
+                      </Link>
+                 
+                    </div>
                   </p>
 
                 </div>
