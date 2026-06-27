@@ -6,8 +6,8 @@ import img1 from "../assets/ArsadSirArg_1.jpg";
 import img2 from "../assets/ArsadSirArg_2.jpg";
 // import sm1 from "../assets/sm1.jpg";
 // import sm3 from "../assets/sm3.jpg";
-import sm1 from "../assets/frontImage3.jpg";
-import sm3 from "../assets/frontImage4.jpg";
+import sm1 from "../assets/ArsadSirArg_3.jpeg";
+import sm3 from "../assets/ArsadSirArg_4.png";
 import gift from "../assets/phone_gift_arg.jpeg";
 
 const HomeContent = () => {
