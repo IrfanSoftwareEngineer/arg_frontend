@@ -10,6 +10,7 @@ import sm1 from "../assets/ArsadSirArg_5.png";
 import sm2 from "../assets/ArsadSirArg_4.png";
 import sm3 from "../assets/ArsadSirArg_6.png";
 import gift from "../assets/phone_gift_arg.jpeg";
+import logo from "../assets/arg_logo.jpg";
 
 const HomeContent = () => {
   const largeImages = [img1, img2];
@@ -110,7 +111,7 @@ const HomeContent = () => {
   return (
     <>  
       <BackgroundDiv>
-        <CenteredH1 className={Styles.TextScreen}> Managing Director at alrehmat glass
+        <CenteredH1 className={Styles.TextScreen}> Managing Director <br></br> at alrehmat glass
          
         </CenteredH1>
       </BackgroundDiv>
@@ -118,7 +119,7 @@ const HomeContent = () => {
       <GoogleVideos />
    
  
-      {/* <div
+      <div
         style={{ backgroundColor }}
         id="background"
         className={`${Styles.HomeContainer}`}
@@ -133,10 +134,10 @@ const HomeContent = () => {
           Our Services to build top-notch Softwares.
         </h1>
         <h1 className={`text-center ${Styles.Text}`}>
-          Milk Code में आपका स्वागत है।
+          Alrehmat Glass में आपका स्वागत है।
         </h1>
        
-      </div> */}
+      </div>
     </>
   );
 };
