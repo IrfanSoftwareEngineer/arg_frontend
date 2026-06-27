@@ -6,14 +6,14 @@ import img1 from "../assets/ArsadSirArg_1.jpg";
 import img2 from "../assets/ArsadSirArg_2.jpg";
 // import sm1 from "../assets/sm1.jpg";
 // import sm3 from "../assets/sm3.jpg";
-import sm1 from "../assets/ArsadSirArg_3.jpeg";
+import sm1 from "../assets/ArsadSirArg_5.png";
 import sm2 from "../assets/ArsadSirArg_4.png";
-import sm3 from "../assets/ArsadSirArg_5.png";
+import sm3 from "../assets/ArsadSirArg_6.png";
 import gift from "../assets/phone_gift_arg.jpeg";
 
 const HomeContent = () => {
   const largeImages = [img1, img2];
-  const smallImages = [sm1, sm3];
+  const smallImages = [sm1, sm2, sm3];
 
   const [backgroundColor, setBackgroundColor] = useState("");
   const [currentImage, setCurrentImage] = useState(0);
