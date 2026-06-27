@@ -77,8 +77,8 @@ const HomeContent = () => {
   
 
   const PhoneGift = styled.div`
-    height: 120vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     
     position: relative;
     z-index: -1;
