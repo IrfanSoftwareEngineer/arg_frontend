@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import GoogleVideos1 from "./GoogleVideos1";
 
 const servicesContainer={
 padding:"38px",
@@ -82,7 +83,7 @@ const services = [
 ];
 
 const OurServices = () => {
-  return (
+  return (<>
     <section className=" py-3 py-md-5 py-xl-8"
     style={{padding:"38px",backgroundColor:"rgb(239 243 243)"}}
     >
@@ -133,6 +134,8 @@ const OurServices = () => {
         </div>
       </div>
     </section>
+    <GoogleVideos1 />
+</>
   );
 };
 

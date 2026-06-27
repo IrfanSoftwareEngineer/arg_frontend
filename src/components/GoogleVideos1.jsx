@@ -6,7 +6,7 @@ import vid2 from "../assets/vid2.mp4";
 import vid4 from "../assets/vid4.mp4";
 import vid5 from "../assets/vid5.mp4";
 
-const GoogleVideos = () => {
+const GoogleVideos1 = () => {
   return (
     <>
 
@@ -24,7 +24,17 @@ const GoogleVideos = () => {
           <source src={vid2} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-   
+        <video
+          width="100%"
+          height="100%"
+          loop
+          autoPlay
+          muted
+        >
+          <source src={vid5} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
         {/* <video
           width="100%"
           height="100%"
@@ -35,7 +45,7 @@ const GoogleVideos = () => {
           <source src={vid1} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <video
+        {/* <video
           width="100%"
           height="100%"
           loop
@@ -44,7 +54,7 @@ const GoogleVideos = () => {
         >
           <source src={vid4} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         {/* <video
           width="100%"
           height="100%"
@@ -75,4 +85,4 @@ const GoogleVideos = () => {
   );
 };
 
-export default GoogleVideos;
+export default GoogleVideos1;
