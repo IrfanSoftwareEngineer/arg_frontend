@@ -49,7 +49,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <p>
-                    My name is IrfanUllah Khan I am software Engineer builing responsive UI for better
+                    My name is IrfanUllah Khan I am software Developer builing responsive UI for better
                     Customer Interaction and ease accessibility feel free to connect us for developing
                     better softwares.
                   </p>
@@ -189,7 +189,7 @@ const Footer = () => {
         <div class="footer-foot " style={{ background: "#b9cacf" }}>
           <div class="container">
             <p class="text-center p-3 mb-0 ">
-              Copyright © 2024 - Developed by Irfan Sir. All Rights Reserved.
+              Copyright © 2026 - Developed by Irfan Foundation. All Rights Reserved.
 
             </p>
           </div>
