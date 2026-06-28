@@ -19,6 +19,7 @@ import md2 from "../assets/ArsadSirbgimage1_medium.png";
 import md3 from "../assets/ArsadSirbgimage2_medium.png";
 
 const HomeContent = () => {
+  //taking three different arrays for large, medium and small images to display based on screen size
 const largeImages = [img1, img2, img3];
 const mediumImages = [md1, md2, md3];
 const smallImages = [sm1, sm2, sm3];
@@ -31,7 +32,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     setBackgroundColor(randomColor);
   };
-
+//here we are storing the active images based on the screen size, 
+// if screen size is less than 400px then small images will be displayed, 
+// if screen size is less than 640px then medium images will be displayed and 
+// if screen size is greater than 640px then large images will be displayed
   const activeImages =
   screenWidth <= 400
     ? smallImages
@@ -44,7 +48,7 @@ const changeImage = useCallback(() => {
 }, [activeImages]);
 
   useEffect(() => {
-  const intervalId1 = setInterval(generateRandomColor, 9000);
+  const intervalId1 = setInterval(generateRandomColor, 1000);
   const intervalId2 = setInterval(changeImage, 4000);
 
   const handleResize = () => {
@@ -95,26 +99,6 @@ const changeImage = useCallback(() => {
     background-image: url(${gift});
   `;
 
-  // bottom: 50%;
-  // left: 45%;
-  // position: absolute;
-  // right: 50%;
-  // top: 74%;
-  // padding: -29px;
-  // margin: -67px;
-  // font-size: 14px;
-  // font-weight: 800;
-  
-  // white-space: nowrap;
-  
-  
-  // font-family: 'Baloo 2';
-
-
-
-
-
-
   return (
     <>  
       <BackgroundDiv>
@@ -140,7 +124,10 @@ const changeImage = useCallback(() => {
         <h1 className={`text-center ${Styles.Text1}`}>
           Our Services to build top-notch Softwares.
         </h1>
-        <h1 className={`text-center ${Styles.Text}`}>
+          <h1 className={`text-center ${Styles.Text}`}>
+          Welcome to Alrehmat Glass.
+        </h1>
+        <h1 className={`text-center ${Styles.Text1}`}>
           Alrehmat Glass में आपका स्वागत है।
         </h1>
        

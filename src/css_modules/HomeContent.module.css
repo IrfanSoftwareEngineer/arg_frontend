@@ -82,6 +82,19 @@
   font-size: 2rem;
   animation: textRotate 3s ease infinite;
 }
+.Text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo 2", sans-serif;
+  top: -35%;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: 900;
+  font-size: 2rem;
+  animation: textRotate 3s ease infinite;
+}
 
 @keyframes logoAnimation {
   0% {
