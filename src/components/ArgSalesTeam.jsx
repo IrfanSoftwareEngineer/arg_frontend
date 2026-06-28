@@ -7,7 +7,7 @@ import img2 from "../assets/KhusbooKhandelwalMam.png";
 import img3 from "../assets/AnilYadavSir.png";
 import img4 from "../assets/SudarshanSir.png";
 import img5 from "../assets/NareshYadavSir.png";
-import img6 from "../assets/Irfan.png";
+import img6 from "../assets/irfanullahkhan.png";
 import img7 from "../assets/ArsadSirArg_7.png";
 import img8 from "../assets/ahsan.jpg";
 
