@@ -22,7 +22,7 @@ ul {
 .padding-lg {
     display: block;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 2px;
 }
 
 .practice-area.padding-lg {
@@ -81,7 +81,7 @@ ul {
 }
 
 .OurServices .cnt-block img {
-    width: 110px;
+    width: 146px;
     height: 165px;
     border-radius: 30%;
 }

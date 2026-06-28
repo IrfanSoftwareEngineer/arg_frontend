@@ -7,6 +7,8 @@ import Footer from "../components/Footer";
 import ServiceListCardView from "../components/ServiceListCardView";
 import { useNavigate } from "react-router-dom";
 import AppName from "../components/AppName";
+import GoogleVideos1 from "../components/GoogleVideos1";
+import ArgAdminTeam from "../components/ArgAdminTeam";
 
 const Home = () => {
 
@@ -47,7 +49,10 @@ const milliseconds = minutes * 60 * 1000;
       <HomeContent></HomeContent>
       <ServiceListCardView />
       <OurServices />
+      <GoogleVideos1/>
+      <ArgAdminTeam/>
 <ArgsalesTeam/>
+
       <Footer />
     </>
   );

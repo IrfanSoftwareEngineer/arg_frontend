@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import GoogleVideos1 from "./GoogleVideos1";
+
 
 const servicesContainer={
 padding:"38px",
@@ -134,7 +134,7 @@ const OurServices = () => {
         </div>
       </div>
     </section>
-    <GoogleVideos1 />
+   
 </>
   );
 };
