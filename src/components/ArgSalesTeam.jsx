@@ -95,19 +95,7 @@ const ArgsalesTeam = () => {
 
                         </div>
                     </li> 
-                       <li className="col-12 col-md-6 col-lg-3">
-                        <div className="cnt-block equal-hight" style={{ height: '349px' }}>
-                            <figure><img src={img6} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr. Irfanullah khan</a></h3>
-                            <p>Software Development Lead</p>
-                            <ul className="follow-us clearfix">
-                                <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i className="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                            </ul>
-
-                        </div>
-                    </li>
+                    
                       <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
                             <figure><img src={arg_men_avatar} className="img-responsive" alt="" /></figure>
@@ -133,7 +121,19 @@ const ArgsalesTeam = () => {
 
                         </div>
                     </li>   
-                 
+                    <li className="col-12 col-md-6 col-lg-3">
+                        <div className="cnt-block equal-hight" style={{ height: '349px' }}>
+                            <figure><img src={img6} className="img-responsive" alt="" /></figure>
+                            <h3><a href="#">Mr. Irfanullah khan</a></h3>
+                            <p>Software Development Lead</p>
+                            <ul className="follow-us clearfix">
+                                <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i className="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
