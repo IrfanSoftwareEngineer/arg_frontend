@@ -2,8 +2,9 @@ import { useState, useEffect, useCallback } from "react";
 import styled from "styled-components";
 import Styles from "../css_modules/HomeContent.module.css";
 import GoogleVideos from "../components/GoogleVideos";
-import img1 from "../assets/ArsadSirArg_1.jpg";
-import img2 from "../assets/ArsadSirArg_2.jpg";
+import img1 from "../assets/ArsadSirbgimage.png";
+import img2 from "../assets/ArsadSirbgimage1.png";
+import img3 from "../assets/ArsadSirbgimage2.png";
 // import sm1 from "../assets/sm1.jpg";
 // import sm3 from "../assets/sm3.jpg";
 import sm1 from "../assets/ArsadSirArg_5.png";
@@ -12,58 +13,64 @@ import sm3 from "../assets/ArsadSirArg_6.png";
 import gift from "../assets/phone_gift_arg.jpeg";
 import logo from "../assets/arg_logo.jpg";
 
-const HomeContent = () => {
-  const largeImages = [img1, img2];
-  const smallImages = [sm1, sm2, sm3];
+//importing medium images here 
+import md1 from "../assets/ArsadSirbgimage2_medium.png";
+import md2 from "../assets/ArsadSirbgimage1_medium.png";
+import md3 from "../assets/ArsadSirbgimage2_medium.png";
 
-  const [backgroundColor, setBackgroundColor] = useState("");
-  const [currentImage, setCurrentImage] = useState(0);
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 495);
+const HomeContent = () => {
+const largeImages = [img1, img2, img3];
+const mediumImages = [md1, md2, md3];
+const smallImages = [sm1, sm2, sm3];
+
+const [backgroundColor, setBackgroundColor] = useState("");
+const [currentImage, setCurrentImage] = useState(0);
+const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const generateRandomColor = () => {
     const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     setBackgroundColor(randomColor);
   };
 
-  const changeImage = useCallback(() => {
-    setCurrentImage((prevValue) => {
-      if (isSmallScreen) {
-        return (prevValue + 1) % smallImages.length;
-      } else {
-        return (prevValue + 1) % largeImages.length;
-      }
-    });
-  }, [isSmallScreen, largeImages.length, smallImages.length]);
+  const activeImages =
+  screenWidth <= 400
+    ? smallImages
+    : screenWidth <= 640
+    ? mediumImages
+    : largeImages;
+
+const changeImage = useCallback(() => {
+  setCurrentImage((prev) => (prev + 1) % activeImages.length);
+}, [activeImages]);
 
   useEffect(() => {
-    const intervalId1 = setInterval(generateRandomColor, 9000);
-    const intervalId2 = setInterval(changeImage, 4000);
+  const intervalId1 = setInterval(generateRandomColor, 9000);
+  const intervalId2 = setInterval(changeImage, 4000);
 
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 495);
-    };
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+    setCurrentImage(0); // Reset image when screen size changes
+  };
 
-    window.addEventListener("resize", handleResize);
+  window.addEventListener("resize", handleResize);
 
-    return () => {
-      clearInterval(intervalId1);
-      clearInterval(intervalId2);
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [changeImage]);
+  return () => {
+    clearInterval(intervalId1);
+    clearInterval(intervalId2);
+    window.removeEventListener("resize", handleResize);
+  };
+}, [changeImage]);
 
 
-
-  const BackgroundDiv = styled.div`
-    height: 100vh;
-    
-    position: relative;
-    z-index: -1;
-    background-size: cover;
-    background-image: url(${isSmallScreen
-      ? smallImages[currentImage]
-      : largeImages[currentImage]});
-  `;
+ const BackgroundDiv = styled.div`
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(${activeImages[currentImage]});
+`;
 
   const CenteredH1 = styled.h1`
   color: white;
