@@ -93,7 +93,7 @@ const Footer = () => {
                       <a className="text-decoration-none" href="https://github.com/1234irfanullah">Projects</a>
                     </li>
                     <li>
-                      <a className="text-decoration-none" href="https://www.youtube.com/@IrfanSoftware">
+                      <a className="text-decoration-none" href="https://www.youtube.com/@Irfan_Foundation">
                         YouTube
                       </a>
                     </li>
@@ -103,7 +103,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="text-decoration-none" href="https://www.youtube.com/@IrfanSoftware">Disclaimer</a>
+                      <a className="text-decoration-none" href="https://www.youtube.com/@Irfan_Foundation">Disclaimer</a>
                     </li>
                   </ul>
                 </div>

@@ -57,7 +57,11 @@ export const Career = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      
+  //here we are sending the data to the backend using axios post method,
+  // and then we are storing the response data in the state variable entries
+  // and then we are showing the alert modal with the success message
+  // and then we are resetting the form fields to empty strings
+  // and then we are setting isSubmitted to true to re-fetch the entries from the backend    
       const response = await api.post("/Career", {
         name,
         mobile,
@@ -66,7 +70,8 @@ export const Career = () => {
         course,
       });
       // console.log(name);
-
+// here we are creating a new entry object with the response data and adding it
+//  to the entries state variable
       const newEntry = {
         id: response.data._id,
         email: response.data.email,

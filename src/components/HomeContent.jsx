@@ -42,6 +42,12 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     : screenWidth <= 640
     ? mediumImages
     : largeImages;
+//this function is used for changing the image every 4 seconds,
+//  it will change the current image to the next image in the array 
+// and if it reaches the end of the array it
+//  will start from the beginning
+//usecallback function is used here to memoize the function 
+// and prevent it from being recreated on every render
 
 const changeImage = useCallback(() => {
   setCurrentImage((prev) => (prev + 1) % activeImages.length);
