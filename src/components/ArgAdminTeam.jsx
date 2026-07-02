@@ -3,7 +3,7 @@ import '../css_modules/OurTeam.css';
 import KamruzamaTeamLogo from "../assets/KamruzamaTeamLogo.jpg";
 import ArmanTeamLogo from "../assets/download1.jfif";
 import img1 from "../assets/ArsadSirArg_7.png";
-import img2 from "../assets/ahsan.jpg";
+import img2 from "../assets/arg_men_avatar.png";
 import img3 from "../assets/HuzefaTeamLogo.jpg";
 
 import arg_men_avatar from "../assets/arg_men_avatar.png";

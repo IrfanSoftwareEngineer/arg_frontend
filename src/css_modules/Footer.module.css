@@ -1,13 +1,24 @@
-.logoFooter{
-    height: 73px;
-    width: 72px;
-    display: flex;
-    align-items: center;
-    border-radius: 46px;
-    /* margin: 14px; */
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 26px;
+
+.container-fluid {
+     width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.logoFooter {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.logoFooter:hover {
+  transform: scale(1.05);
 }
 
 .listItem{
@@ -23,7 +34,7 @@
     text-decoration: none;
 }
 
-.SocialMediaItem{
+/* .SocialMediaItem{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +43,7 @@
 flex-wrap: wrap;
 
 
-}
+} */
 .center{
     text-align: center;
 }
@@ -43,4 +54,33 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+.SocialMediaItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;          /* Space between icons */
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+.SocialMediaItem a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoFooter {
+  cursor: pointer;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  display: inline-block;
+}
+
+.logoFooter:hover {
+  transform: scale(1.1) rotate(-2deg);
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
 }
