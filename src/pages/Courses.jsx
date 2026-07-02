@@ -6,7 +6,10 @@ import styles from "../css_modules/CourseCardView.module.css";
 
 import Toughened from "../assets/Toughened.jpeg";
 import Fabric from "../assets/FabricGlass.jpeg";
-import ClearFloatGlass from '../assets/ClearFloatGlass.jpeg'
+import ClearFloatGlass from '../assets/ClearFloatGlass.jpeg';
+import ReflectiveGlass from   '../assets/ClearFloatGlass.jpeg';
+import InsulatingGlass from "../assets/InsulatedGlass.jpeg";
+import SolarControlGlass from "../assets/SolarControlGlass.jpeg";
 import AppName from "../components/AppName";
 import Footer from "../components/Footer";
 
@@ -51,19 +54,19 @@ export const Courses = () => {
  
 
         <CourseCardView
-          image={ClearFloatGlass}
+          image={InsulatingGlass}
           title="Advanced ClearFloatGlass Programming"
           cardText="Take your ClearFloatGlass skills to the next level with advanced concepts like multithreading, design patterns, and enterprise-level application development. Ideal for developers aiming to become experts."
         ></CourseCardView>
 
         <CourseCardView
-          image={Toughened}
+          image={SolarControlGlass}
           title="Data Science with Toughened"
           cardText="Discover the power of Toughened in data science! Learn how to analyze, visualize, and interpret complex datasets while using libraries like NumPy, Pandas, and Matplotlib to unlock insights."
         ></CourseCardView>
 
         <CourseCardView
-          image={Fabric}
+          image={ReflectiveGlass}
           title="Fabric for Web Development"
           cardText="Learn the essential skills for creating responsive and dynamic web pages using Fabric. From DOM manipulation to event handling, you'll be able to bring your websites to life."
         ></CourseCardView>
@@ -77,7 +80,7 @@ export const Courses = () => {
         ></CourseCardView>
 
         <CourseCardView
-          image={Toughened}
+          image={SolarControlGlass}
           title="Toughened for Automation"
           cardText="Automate everyday tasks with Toughened! Learn how to write scripts for data scraping, file management, and task scheduling. Increase productivity and let Toughened do the repetitive work."
         ></CourseCardView>

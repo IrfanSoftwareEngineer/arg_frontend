@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MyResume from "../components/MyResume";
 import OurServices2 from "../components/OurServices2";
-import img from "../assets/logo.png";
+import img from "../assets/AyanSir.png";
 
 export const About = () => {
   return (
@@ -11,7 +11,7 @@ export const About = () => {
       <Navbar />
 
       {/* Heading */}
-      <h1
+      {/* <h1
         className="text-center mb-4"
         style={{
           fontSize: "3rem",
@@ -20,10 +20,10 @@ export const About = () => {
         }}
       >
         Irfan's Portfolio
-      </h1>
+      </h1> */}
 
-      <MyResume />
-      <hr />
+      {/* <MyResume /> */}
+      {/* <hr /> */}
 
       {/* About Section */}
       <section className="bg-light py-5">
@@ -38,43 +38,194 @@ export const About = () => {
               {/* Founder Image */}
               <img
                 src={img}
-                alt="Irfanullah Khan"
+                alt="Ayaan Parvez"
                 style={{
                   height: "300px",
                   width: "220px",
-                  borderRadius: "150px",
+                  borderRadius: "18px",
                   objectFit: "cover",
                   marginBottom: "20px",
                 }}
               />
 
               <h5 className="text-primary fw-bold">
-                IRFANULLAH KHAN
+                Ayaan Parvez,CMO Al Rehmat Glass
               </h5>
 
-              <p className="text-secondary lead mt-4">
-                Welcome to Al Rehmat Glass — an Ed-Tech company focused on
-                Online Education and Software Development Training.
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >
+                Welcome to Al Rehmat Glass Pvt. Ltd.
+
+                Welcome to **Al Rehmat Glass Pvt. Ltd.**, a trusted name in the glass processing
+                industry, dedicated to delivering premium-quality glass
+                solutions for residential, commercial, and industrial projects.
               </p>
 
-              <p className="text-secondary">
-                Our journey started with a simple yet powerful vision:
-                helping students and businesses grow through technology.
-                We provide modern learning solutions, practical training,
-                and industry-ready skills.
+
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >
+                Our journey began with a simple vision—to provide durable, innovative, and high-performance
+                glass products that combine safety, strength, and modern aesthetics. Over the years,
+                we have built a
+                reputation for excellence by offering precision-engineered glass products
+                that meet the highest industry standards.
               </p>
 
-              <p className="text-secondary">
-                Whether you are a beginner learning programming or a
-                business looking for software solutions, Al Rehmat Glass is
-                committed to delivering reliable, innovative, and
-                high-quality services.
+
+
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >
+                At Al Rehmat Glass Pvt. Ltd., we specialize in processing a wide range of architectural
+                and decorative glass solutions, including **Toughened (Tempered) Glass, Laminated Safety Glass,
+                Double Glazed Units (DGU), Insulated Glass, Decorative Glass, Frosted Glass, Reflective Glass,
+                Tinted Glass, and Custom Glass Solutions**.
+                Every product is manufactured using advanced technology, modern machinery,
+                and strict quality control processes to ensure exceptional durability, safety, and performance.
               </p>
 
-              <p className="text-secondary">
-                We are not just a service provider — we are your partner
-                in success. Thank you for being part of our journey.
-              </p>
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >   Our experienced team works closely with architects, builders, interior designers,
+              contractors, and business owners to understand their unique requirements and provide
+              customized glass solutions that perfectly suit every project. Whether it is a luxury
+              home, a commercial building, an office space, a shopping mall, a hotel, or an
+              industrial facility, we are committed to delivering products that enhance both
+              functionality and visual appeal.</p>
+           
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >  Quality is the foundation of everything we do.
+              From selecting premium raw materials to the final inspection, every stage of our
+              manufacturing process is carefully monitored to ensure that our customers
+              receive products they can trust. Our commitment to precision, innovation,
+              and customer satisfaction has helped us become a preferred partner for clients
+              across multiple industries.</p>
+            
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >Beyond manufacturing glass, we believe in building long-term relationships
+              based on trust, transparency, and reliability. Our dedicated customer support,
+              timely delivery, and continuous focus on innovation enable us to exceed customer
+              expectations on every project.</p>
+              
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >   As the construction and architectural industries continue to evolve, Al Rehmat Glass Pvt. Ltd.
+              remains committed to adopting the latest technologies and sustainable practices to
+              deliver energy-efficient and environmentally responsible glass solutions that
+              contribute to modern infrastructure.</p>
+            
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >  Whether you need glass for windows, doors, facades, partitions, railings, shower enclosures,
+              skylights, storefronts, curtain walls, or specialized architectural applications,
+              Al Rehmat Glass Pvt. Ltd. is your trusted partner for quality, innovation, and excellence.</p>
+            
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >    We don't just process glass—we create solutions that bring strength, safety,
+              elegance, and lasting value to every space.</p>
+          
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              >  **Thank you for choosing Al Rehmat Glass Pvt. Ltd. We look forward to being a part
+              of your success and helping you build spaces that inspire confidence, beauty,
+              and innovation.*</p>
+            
+              <p
+                className="mt-4"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  color: "#444",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  lineHeight: "1.6",
+                  letterSpacing: "0.3px",
+                }}
+              ></p>
 
             </div>
           </div>

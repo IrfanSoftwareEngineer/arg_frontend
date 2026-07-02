@@ -9,7 +9,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/irfanullahkhan.png";
 import styles from "../css_modules/Footer.module.css";
 
 // assigning all links to the variables and use it in future
