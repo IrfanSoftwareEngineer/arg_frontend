@@ -85,7 +85,7 @@ const ArgsalesTeam = () => {
                     </li>   <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
                             <figure><img src={img5} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr.Naresh Yadav</a></h3>
+                            <h3><a href="#">Mr.Hansraj Tanwar</a></h3>
                             <p>Head of Accounts & Finance</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -111,7 +111,7 @@ const ArgsalesTeam = () => {
                     </li>   <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
                             <figure><img src={arg_men_avatar} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr. Ansar Ahmad</a></h3>
+                            <h3><a href="#">Mr. Kalu Ram</a></h3>
                             <p>Head of Production</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>

@@ -2,9 +2,9 @@ import React from "react";
 import classNames from "classnames";
 
 
-const servicesContainer={
-padding:"38px",
-backgroundCcolor:"rgb(239 243 243)"
+const servicesContainer = {
+  padding: "38px",
+  backgroundCcolor: "rgb(239 243 243)"
 
 }
 
@@ -15,91 +15,91 @@ backgroundCcolor:"rgb(239 243 243)"
 
 const services = [
   {
-    name: "Annealed glass",
+    name: "Annealed Glass",
     iconClass: "bi bi-laptop-fill",
     description:
-      "We build robust, scalable, and secure web applications tailored to your business needs.",
+      "High-quality flat glass offering excellent clarity, versatility, and precision for various architectural and interior applications.",
   },
   {
-    name: "Toughening glass",
+    name: "Toughening Glass",
     iconClass: "bi bi-phone-fill",
     description:
-      "We create powerful, user-friendly Android apps to help you reach a wider audience on mobile platforms.",
+      "Strong, safety-enhanced glass processed to withstand high impact, thermal stress, and demanding environments.",
   },
   {
-    name: "Insulated glass",
+    name: "Insulated Glass",
     iconClass: "bi bi-file-earmark-text-fill",
     description:
-      "Professional resume writing services to help you stand out in the competitive job market.",
+      "Energy-efficient double-glazed glass designed to improve thermal insulation, reduce noise, and enhance indoor comfort.",
   },
   {
     name: "Heat Soaked Testing",
     iconClass: "bi bi-pencil-fill",
     description:
-      "High-quality content writing that engages your audience and enhances your brand's voice.",
+      "Advanced heat soak testing process that minimizes the risk of spontaneous glass breakage for maximum safety.",
   },
   {
     name: "Edge Grinding and Polishing",
     iconClass: "bi bi-brush-fill",
     description:
-      "Creative graphic design services that bring your vision to life with visually appealing designs.",
+      "Precision edge finishing services that deliver smooth, polished edges for enhanced safety and premium appearance.",
   },
   {
     name: "Drilling and Notching",
     iconClass: "bi bi-graph-up-arrow",
     description:
-      "Improve your website's search engine rankings and drive more organic traffic to your site.",
+      "Accurate drilling and custom notching solutions for seamless installation in architectural and structural applications.",
   },
   {
     name: "CNC glass processing",
     iconClass: "bi bi-megaphone-fill",
     description:
-      "Expand your reach with targeted digital marketing strategies and campaigns.",
+      "State-of-the-art CNC machining providing precise cutting, shaping, engraving, and customized glass fabrication.",
   },
   {
     name: "Custom Fabrication",
     iconClass: "bi bi-people-fill",
     description:
-      "Manage your social media presence with consistent and engaging content to build your brand.",
+      "Tailor-made glass solutions manufactured to meet unique project specifications with exceptional quality and precision.",
   },
   {
     name: "Quality Assurance",
     iconClass: "bi bi-bag-fill",
     description:
-      "Build and manage online stores with our comprehensive e-commerce solutions.",
+      "Rigorous quality control processes ensuring every glass product meets the highest industry standards and customer expectations.",
   },
   {
     name: "IT Consulting",
     iconClass: "bi bi-lightbulb-fill",
     description:
-      "Expert IT consulting services to help you leverage technology for business growth and efficiency.",
+      "Providing expert technology consulting services to optimize business operations, digital transformation, and IT infrastructure.",
   },
   {
     name: "Technical Support",
     iconClass: "bi bi-tools",
     description:
-      "24/7 technical support services to ensure your systems and applications run smoothly.",
+      "Reliable technical assistance and after-sales support to ensure smooth installation, maintenance, and long-term performance.",
   },
 ];
 
 const OurServices = () => {
   return (<>
     <section className=" py-3 py-md-5 py-xl-8"
-    style={{padding:"38px",backgroundColor:"rgb(239 243 243)"}}
+      style={{ padding: "38px", backgroundColor: "rgb(239 243 243)" }}
     >
       <div className="container">
         <div className="row justify-content-md-center">
           <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
             <h2 className="display-5 text-center text-bold mt-0 mx-4 my-5"
-            style={{fontFamily:"monospace"}}
+              style={{ fontFamily: "monospace" }}
             >Our Processing Capabilities</h2>
-         
+
           </div>
         </div>
       </div>
 
       <div className="container"
-    
+
       >
         <div className="row g-4"> {/* Added 'g-4' class for consistent gap */}
           {services.map((service, index) => (
@@ -134,8 +134,8 @@ const OurServices = () => {
         </div>
       </div>
     </section>
-   
-</>
+
+  </>
   );
 };
 

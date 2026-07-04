@@ -11,7 +11,7 @@ import sm1 from "../assets/ArsadSirArg_5.png";
 import sm2 from "../assets/ArsadSirArg_4.png";
 import sm3 from "../assets/ArsadSirArg_6.png";
 import gift from "../assets/phone_gift_arg.jpeg";
-import logo from "../assets/arg_logo.jpg";
+import logo from "../assets/arg_logo_1.jpeg";
 
 //importing medium images here 
 import md1 from "../assets/ArsadSirbgimage2_medium.png";
@@ -20,59 +20,59 @@ import md3 from "../assets/ArsadSirbgimage2_medium.png";
 
 const HomeContent = () => {
   //taking three different arrays for large, medium and small images to display based on screen size
-const largeImages = [img1, img2, img3];
-const mediumImages = [md1, md2, md3];
-const smallImages = [sm1, sm2, sm3];
+  const largeImages = [img1, img2, img3];
+  const mediumImages = [md1, md2, md3];
+  const smallImages = [sm1, sm2, sm3];
 
-const [backgroundColor, setBackgroundColor] = useState("");
-const [currentImage, setCurrentImage] = useState(0);
-const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [backgroundColor, setBackgroundColor] = useState("");
+  const [currentImage, setCurrentImage] = useState(0);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const generateRandomColor = () => {
     const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     setBackgroundColor(randomColor);
   };
-//here we are storing the active images based on the screen size, 
-// if screen size is less than 400px then small images will be displayed, 
-// if screen size is less than 640px then medium images will be displayed and 
-// if screen size is greater than 640px then large images will be displayed
+  //here we are storing the active images based on the screen size, 
+  // if screen size is less than 400px then small images will be displayed, 
+  // if screen size is less than 640px then medium images will be displayed and 
+  // if screen size is greater than 640px then large images will be displayed
   const activeImages =
-  screenWidth <= 400
-    ? smallImages
-    : screenWidth <= 640
-    ? mediumImages
-    : largeImages;
-//this function is used for changing the image every 4 seconds,
-//  it will change the current image to the next image in the array 
-// and if it reaches the end of the array it
-//  will start from the beginning
-//usecallback function is used here to memoize the function 
-// and prevent it from being recreated on every render
+    screenWidth <= 400
+      ? smallImages
+      : screenWidth <= 640
+        ? mediumImages
+        : largeImages;
+  //this function is used for changing the image every 4 seconds,
+  //  it will change the current image to the next image in the array 
+  // and if it reaches the end of the array it
+  //  will start from the beginning
+  //usecallback function is used here to memoize the function 
+  // and prevent it from being recreated on every render
 
-const changeImage = useCallback(() => {
-  setCurrentImage((prev) => (prev + 1) % activeImages.length);
-}, [activeImages]);
+  const changeImage = useCallback(() => {
+    setCurrentImage((prev) => (prev + 1) % activeImages.length);
+  }, [activeImages]);
 
   useEffect(() => {
-  const intervalId1 = setInterval(generateRandomColor, 1000);
-  const intervalId2 = setInterval(changeImage, 4000);
+    const intervalId1 = setInterval(generateRandomColor, 5000);
+    const intervalId2 = setInterval(changeImage, 4000);
 
-  const handleResize = () => {
-    setScreenWidth(window.innerWidth);
-    setCurrentImage(0); // Reset image when screen size changes
-  };
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+      setCurrentImage(0); // Reset image when screen size changes
+    };
 
-  window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
 
-  return () => {
-    clearInterval(intervalId1);
-    clearInterval(intervalId2);
-    window.removeEventListener("resize", handleResize);
-  };
-}, [changeImage]);
+    return () => {
+      clearInterval(intervalId1);
+      clearInterval(intervalId2);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [changeImage]);
 
 
- const BackgroundDiv = styled.div`
+  const BackgroundDiv = styled.div`
   height: 100vh;
   position: relative;
   z-index: -1;
@@ -93,7 +93,7 @@ const changeImage = useCallback(() => {
     font-family: "Baloo 2";
   `;
 
-  
+
 
   const PhoneGift = styled.div`
     height: 100%;
@@ -106,18 +106,23 @@ const changeImage = useCallback(() => {
   `;
 
   return (
-    <>  
+    <>
       <BackgroundDiv>
         <CenteredH1 className={Styles.TextScreen}> Managing Director <br></br> at alrehmat glass
-         
+
         </CenteredH1>
       </BackgroundDiv>
-<PhoneGift />
+      <PhoneGift />
       <GoogleVideos />
-   
- 
+
       <div
-        style={{ backgroundColor }}
+        id="background"
+        className={Styles.HomeContainer}
+      >
+      </div>
+
+      {/* <div
+     
         id="background"
         className={`${Styles.HomeContainer}`}
       >
@@ -128,7 +133,7 @@ const changeImage = useCallback(() => {
           alt="logoRenderingwhenPageLoad"
         />
         <h1 className={`text-center ${Styles.Text1}`}>
-          Our Services to build top-notch Softwares.
+          Our Services to build top-notch Glasses.
         </h1>
           <h1 className={`text-center ${Styles.Text}`}>
           Welcome to Alrehmat Glass.
@@ -137,7 +142,7 @@ const changeImage = useCallback(() => {
           Alrehmat Glass में आपका स्वागत है।
         </h1>
        
-      </div>
+      </div>  */}
     </>
   );
 };

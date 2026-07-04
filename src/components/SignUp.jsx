@@ -156,7 +156,7 @@ const SignUp = () => {
             <div className="row d-flex justify-content-center">
               <div className="col-lg-8">
                 <h2 className="fw-bolder mb-5" style={{ fontSize: "3.2rem" }}>
-                  SignUp
+                  SignUp to Al Rehmat Glass
                 </h2>
 
                 <form id="SignUpForm" onSubmit={handleFormSubmit}>
