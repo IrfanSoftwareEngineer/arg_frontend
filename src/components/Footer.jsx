@@ -41,10 +41,10 @@ const Footer = () => {
         >
         <div className="container-fluid">
   <div className="row" style={{ backgroundColor: "aliceblue" }}>
-    <div className="col-md-3 mt-20 pl-18">
+    <div className="col-md-3 mt-20 ">
 
       <div className="footer-desc">
-        <div className="logo-footer d-flex justify-content-md-start justify-content-center align-items-center">
+        <div className="logo-footer d-flex justify-content-center align-items-center">
           <a
             href="https://www.youtube.com/@IrfanSoftwareEngineer"
             target="_blank"

@@ -45,7 +45,7 @@ const Navbar = () => {
             to="#"
             onClick={toggleSubmenu} // Toggle submenu visibility
           >
-            Courses
+            Products
           </Link>
 
 {/* show is using for menu item will transform in to column when its takes item content larger */}
@@ -53,42 +53,42 @@ const Navbar = () => {
             <ul className="dropdown-menu show">
                   <li>
                 <Link className="dropdown-item" to="/Courses/">
-                  All_Courses
+                  Glasses Types
                 </Link>
               </li>
                   <li>
                 <Link className="dropdown-item" to="/Courses/Class_9_IT">
-                  Class_9_IT
+                  Architectural Glass
                 </Link>
               </li>
                   <li>
                 <Link className="dropdown-item" to="/Courses/class_10_IT">
-                  Class_10_IT
+                  Interior Glass
                 </Link>
               </li>
                   <li>
                 <Link className="dropdown-item" to="/Courses/Class_11_CS">
-                  Class_11_CS
+           Safety Glass
                 </Link>
               </li>
                   <li>
                 <Link className="dropdown-item" to="/Courses/Class_12_CS">
-                  Class_12_CS
+                  Custom Glass Fabrication
                 </Link>
               </li>
               <li>
                 <Link className="dropdown-item" to="/Courses/Java">
-                  Java
+             Custom Glass Fabrication
                 </Link>
               </li>
               <li>
                 <Link className="dropdown-item" to="/Courses/Python">
-                  Python
+              Custom Glass Fabrication
                 </Link>
               </li>
               <li>
                 <Link className="dropdown-item" to="/Courses/English">
-                  englishSpeakingCourse
+                Custom Glass Fabrication
                 </Link>
               </li>
             </ul>

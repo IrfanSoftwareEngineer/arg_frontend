@@ -4,7 +4,7 @@ import KamruzamaTeamLogo from "../assets/KamruzamaTeamLogo.jpg";
 import ArmanTeamLogo from "../assets/download1.jfif";
 import img1 from "../assets/ArsadSirArg_7.png";
 import img2 from "../assets/arg_men_avatar.png";
-import img3 from "../assets/HuzefaTeamLogo.jpg";
+// import img3 from "../assets/HuzefaTeamLogo.jpg";
 
 import arg_men_avatar from "../assets/arg_men_avatar.png";
 
@@ -54,7 +54,7 @@ const ArgAdminTeam = () => {
                     </li>
                <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
-                            <figure><img src={img3} className="img-responsive" alt="" /></figure>
+                            <figure><img src={img2} className="img-responsive" alt="" /></figure>
                             <h3><a href="#">Mr. Aggarwal</a></h3>
                             <p>Director</p>
                             <ul className="follow-us clearfix">

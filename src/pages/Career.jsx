@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AlertModal from "../components/AlertModal";
 import api from "../url/baseUrl";
-import img from "../assets/irfanTemplate.png";
+import img from "../assets/AyanSir.png";
 import img1 from "../assets/m4.jpg";
 
 export const Career = () => {
@@ -176,7 +176,7 @@ export const Career = () => {
               />
             </div>
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="jobcourse">Choose Courses</label>
+              <label htmlFor="jobcourse">Choose Glasses for </label>
               <select
                 className="form-control"
                 id="jobcourse"
@@ -184,49 +184,15 @@ export const Career = () => {
                 onChange={(e) => setCourse(e.target.value)}
                 required
               >
-                <option value="">Select your Course</option>
-                <option value="Class 6 Maths Only">Class 6 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 6 Computer Only</option>
-                <option value="Class 6 Maths + Computer">Class 6 Maths + Computer </option>
-                <option value="Class 7 Maths Only">Class 7 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 7 Computer Only</option>
-                <option value="Class 7 Maths + Computer">Class 7 Maths + Computer </option>
-                <option value="Class 8 Maths Only">Class 8 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 8 Computer Only</option>
-                <option value="Class 8 Maths + Computer">Class 8 Maths + Computer </option>
-                <option value="Class 9 Maths Only">Class 9 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 9 Computer Only</option>
-                <option value="Class 9 Maths + Computer">Class 9 Maths + Computer </option>
-                <option value="Class 9 Maths Only">Class 10 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 10 Computer Only</option>
-                <option value="Class 9 Maths + Computer">Class 10 Maths + Computer </option>
-                <option value="Class 9 Maths Only">Class 11 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 11 Computer Only</option>
-                <option value="Class 9 Maths + Computer">Class 11 Maths + Computer </option>
-                <option value="Class 9 Maths Only">Class 12 Maths Only</option>
-                <option value="Class 6 Maths Only">Class 12 Computer Only</option>
-                <option value="Class 9 Maths + Computer">Class 12 Maths + Computer </option>
-                <option value="Class 9 Maths + Computer + Science">Class 9 Maths + Computer + Science</option>
-                <option value="Class 10 Maths + Computer ">Class 10 Maths + Computer </option>
-                <option value="Class 10 Maths + Computer + Science">Class 10 Maths + Computer + Science</option>
-                <option value="Class 11 Maths + Computer">Class 11 Maths + Computer </option>
-              
-                <option value="Class 11 Maths + Computer + Physics + Chemistry">Class 11 Maths + Computer + Physics + Chemistry</option>
-                <option value="Class 12 Maths + Computer">Class 12 Maths + Computer </option>
-                <option value="Class 12 Maths + Computer + Physics + Chemistry">Class 12 Maths + Computer + Physics + Chemistry</option>
-                <option value="Class 9 Maths + Computer + Science">Class 9 Maths + Computer + Science</option>
-                <option value="C Programming">C Programming</option>
-                <option value="C++">C++</option>
-                <option value="JAVA">JAVA</option>
-                <option value="Data Structures & Algorithm using JAVA">Data Structures & Algorithm using JAVA</option>
-                <option value="PYTHON">PYTHON</option>
-                <option value="JAVASCRIPT">JAVASCRIPT</option>
-                <option value="Frontend Development(HTML,CSS,JAVASCRIPT,React Framework,BOOTSTRAP)">Frontend Development(HTML,CSS,JAVASCRIPT,React Framework,BOOTSTRAP)</option>
-                <option value="Backend Development(Node Js,Express Js, MongoDB)">Backend Development(Node Js,Express Js, MongoDB)</option>
-                <option value="Data Science Course">Data Science Course</option>
-                <option value="Machine Learning Course">Machine Learning Course</option>
-                <option value="Artificial Intelligence Course">Artificial Intelligence Course</option>
-                <option value="Prompt Engineering">Prompt Engineering</option>
+                <option value="">Select Glasses here</option>
+                <option value="Class 6 Maths Only">Lamination Glass 6mm</option>
+                <option value="Class 6 Maths Only">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
 
 
               
