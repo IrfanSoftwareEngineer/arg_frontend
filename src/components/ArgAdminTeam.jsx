@@ -12,7 +12,8 @@ const ArgAdminTeam = () => {
 
     const Ourservices = {
       
-        backgroundColor: '#c7d4e1'
+        backgroundColor: '#c7d4e1',
+       
 
       };
 
@@ -42,7 +43,7 @@ const ArgAdminTeam = () => {
                    <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
                             <figure><img src={img2} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr. Gupta</a></h3>
+                            <h3><a href="#">Mr. Sunil Agarwal</a></h3>
                             <p>Director</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -55,7 +56,7 @@ const ArgAdminTeam = () => {
                <li className="col-12 col-md-6 col-lg-3">
                         <div className="cnt-block equal-hight" style={{ height: '349px' }}>
                             <figure><img src={img2} className="img-responsive" alt="" /></figure>
-                            <h3><a href="#">Mr. Aggarwal</a></h3>
+                            <h3><a href="#">Mr. Gaurav Yadav</a></h3>
                             <p>Director</p>
                             <ul className="follow-us clearfix">
                                 <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>

@@ -39,28 +39,28 @@ const Footer = () => {
           class="footer-main d-flex flex-direction-column mb--20px"
           style={{ background: "rgb(233 231 229)", padding: "0px 0 20px", marginBottom: "-20px" }}
         >
-        <div className="container-fluid">
-  <div className="row" style={{ backgroundColor: "aliceblue" }}>
-    <div className="col-md-3 mt-20 ">
+          <div className="container-fluid">
+            <div className="row" style={{ backgroundColor: "aliceblue" }}>
+              <div className="col-md-3 mt-20 ">
 
-      <div className="footer-desc">
-        <div className="logo-footer d-flex justify-content-center align-items-center">
-          <a
-            href="https://www.youtube.com/@IrfanSoftwareEngineer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className={styles.logoFooter}
-              src={logo}
-              alt="Eguru"
-              width="183"
-              height="67"
-            />
-          </a>
-        </div>
+                <div className="footer-desc">
+                  <div className="logo-footer d-flex justify-content-center align-items-center">
+                    <a
+                      href="https://www.youtube.com/@IrfanSoftwareEngineer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className={styles.logoFooter}
+                        src={logo}
+                        alt="Eguru"
+                        width="183"
+                        height="67"
+                      />
+                    </a>
+                  </div>
 
-      
+
                   <p>
                     My name is IrfanUllah Khan I am software Developer builing responsive UI for better
                     Customer Interaction and ease accessibility feel free to connect us for developing
@@ -360,15 +360,21 @@ const Footer = () => {
               <div class="container-fluid col-md-3 d-flex justify-content-center align-item-center">
                 <div class="footer-Support">
                   <h4 className="text-center text-large">Contact Info</h4>
-                  <p>Right Street from Random Road, Default Road, UP(India)</p>
+                  <p>21,RIICO Industrial Area Bhiwadi Extension, Kaharani Industrail Area, Rajasthan, India</p>
                   <p>
                     <i className="fa fa-phone-square" style={{ fontSize: "24px", marginRight: "5px" }}></i>
-                    <span>Phone No: </span>
+                    <span>Phone_No_1: </span>
                     <a href="tel:+916393532872" style={{ textDecoration: "none", color: "blue" }}>
-                      (+91) 123456789
+                      (+91) 9983306655
                     </a>
                   </p>
-
+                  <p>
+                    <i className="fa fa-phone-square" style={{ fontSize: "24px", marginRight: "5px" }}></i>
+                    <span>Phone_No_2: </span>
+                    <a href="tel:+916393532872" style={{ textDecoration: "none", color: "blue" }}>
+                      (+91) 9983306685
+                    </a>
+                  </p>
                   <p>
                     <i className="fa fa-envelope" style={{ fontSize: "24px", marginRight: "5px" }}></i>
                     <span>E-mail: </span>
@@ -377,7 +383,7 @@ const Footer = () => {
                       href="mailto:irfanullah2220@gmail.com"
                       style={{ textDecoration: "none", color: "blue" }}
                     >
-                      irfanullah2220@gmail.com
+                      Info@arglass.in
                     </a>
                   </p>
                 </div>
