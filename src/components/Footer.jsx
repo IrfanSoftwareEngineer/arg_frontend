@@ -359,8 +359,11 @@ const Footer = () => {
               </div>
               <div class="container-fluid col-md-3 d-flex justify-content-center align-item-center">
                 <div class="footer-Support">
-                  <h4 className="text-center text-large">Contact Info</h4>
-                  <p>21,RIICO Industrial Area Bhiwadi Extension, Kaharani Industrail Area, Rajasthan, India</p>
+                  <h4 className="text-center text-large mx-6 my-3">Contact Info</h4>
+                 
+                  <p>  <i className="fa fa-map-marker-alt"style={{ fontSize: "30px", marginRight: "5px" ,color : "#ff0000"}}></i>21,RIICO Industrial Area <br/>
+                    Bhiwadi Extension, 
+                    Kaharani <br/>Industrail Area, Rajasthan, India</p>
                   <p>
                     <i className="fa fa-phone-square" style={{ fontSize: "24px", marginRight: "5px" }}></i>
                     <span>Phone_No_1: </span>
