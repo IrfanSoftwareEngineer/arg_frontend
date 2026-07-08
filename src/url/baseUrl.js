@@ -1,7 +1,7 @@
 import axios from "axios";
 const api = axios.create({
   
-    baseURL: 'https://mcbackend.vercel.app',
+    baseURL: 'https://arg-backend.vercel.app/',
     headers: {
       'Content-Type': 'application/json',
     },
