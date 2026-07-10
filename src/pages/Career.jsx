@@ -185,7 +185,7 @@ export const Career = () => {
                 required
               >
                 <option value="">Select Glasses here</option>
-                <option value="Class 6 Maths Only">Lamination Glass 6mm</option>
+                <option value="Lamination Glass 6mm">Lamination Glass 6mm</option>
                 <option value="Class 6 Maths Only">Lamination Glass 8mm</option>
                 <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
                 <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
