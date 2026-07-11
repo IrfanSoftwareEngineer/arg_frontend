@@ -101,7 +101,7 @@ export const Career = () => {
 
       setAlertMessage(
       <>
-        You have successfully applied for the selected job position{" "}
+        You have successfully applied for the job role{" "}
         <span className="bg-warning text-dark fw-bold px-2 rounded">
           {response.data.course}
         </span>{" "}
@@ -112,7 +112,7 @@ export const Career = () => {
         Our recruitment team will review your application and contact you shortly.
       </>
       );
-      
+
       setAlertName(response.data.name);
       setShowAlertModal(true);
 
