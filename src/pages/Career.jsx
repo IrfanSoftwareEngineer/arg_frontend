@@ -85,10 +85,34 @@ export const Career = () => {
       setEntries((oldData) => [...oldData, newEntry]);
 
 
-      const successMessage = `You have successfully applied for the selected job position  ${response.data.course} at Al Rehmat Glass Pvt. Ltd.
- Thank you for your interest in joining our team.
-  Our recruitment team will review your application and contact you shortly.`;
-      setAlertMessage(successMessage);
+      //     const successMessage = `
+      // You have successfully applied for the selected job position
+      // <span class="highlight">${response.data.course}</span>
+      // at Al Rehmat Glass Pvt. Ltd.<br>
+      // Thank you for your interest in joining our team.<br>
+      // Our recruitment team will review your application and contact you shortly.
+      // `;
+
+
+
+
+
+
+
+      setAlertMessage(
+      <>
+        You have successfully applied for the selected job position{" "}
+        <span className="bg-warning text-dark fw-bold px-2 rounded">
+          {response.data.course}
+        </span>{" "}
+        at Al Rehmat Glass Pvt. Ltd.
+        <br />
+        Thank you for your interest in joining our team.
+        <br />
+        Our recruitment team will review your application and contact you shortly.
+      </>
+      );
+      
       setAlertName(response.data.name);
       setShowAlertModal(true);
 
@@ -211,7 +235,7 @@ export const Career = () => {
                   <option value="Glass Cutting Operator">Glass Cutting Operator</option>
                   <option value="Tempering Furnace Operator">Tempering Furnace Operator</option>
                   <option value="Laminated Glass Operator">Laminated Glass Operator</option>
-                 
+
                 </optgroup>
 
                 <optgroup label="Quality">
