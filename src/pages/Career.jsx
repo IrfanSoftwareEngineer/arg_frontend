@@ -5,6 +5,7 @@ import AlertModal from "../components/AlertModal";
 import api from "../url/baseUrl";
 import img from "../assets/AyanSir.png";
 import img1 from "../assets/m4.jpg";
+import Styles from "../css_modules/career.module.css";
 
 export const Career = () => {
   const [name, setName] = useState("");
@@ -57,11 +58,11 @@ export const Career = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-  //here we are sending the data to the backend using axios post method,
-  // and then we are storing the response data in the state variable entries
-  // and then we are showing the alert modal with the success message
-  // and then we are resetting the form fields to empty strings
-  // and then we are setting isSubmitted to true to re-fetch the entries from the backend    
+      //here we are sending the data to the backend using axios post method,
+      // and then we are storing the response data in the state variable entries
+      // and then we are showing the alert modal with the success message
+      // and then we are resetting the form fields to empty strings
+      // and then we are setting isSubmitted to true to re-fetch the entries from the backend    
       const response = await api.post("/Career", {
         name,
         mobile,
@@ -70,13 +71,13 @@ export const Career = () => {
         course,
       });
       // console.log(name);
-// here we are creating a new entry object with the response data and adding it
-//  to the entries state variable
+      // here we are creating a new entry object with the response data and adding it
+      //  to the entries state variable
       const newEntry = {
         id: response.data._id,
         email: response.data.email,
         name: response.data.name,
-        mobile:response.data.mobile,
+        mobile: response.data.mobile,
         location: response.data.location,
         course: response.data.course,
       };
@@ -107,26 +108,28 @@ export const Career = () => {
   return (
     <>
       <Navbar />
-      <div  style={{
-    backgroundImage: `url(${img1})`, // Replace with your image path
-    backgroundSize: "cover", // Ensures the image covers the entire div
-    backgroundRepeat: "no-repeat", // Prevents the image from repeating
-    backgroundPosition: "center", // Centers the image
-  }}
-  className="d-flex justify-content-center align-items-center flex-column"
->
+      <div style={{
+        backgroundImage: `url(${img1})`, // Replace with your image path
+        backgroundSize: "cover", // Ensures the image covers the entire div
+        backgroundRepeat: "no-repeat", // Prevents the image from repeating
+        backgroundPosition: "center", // Centers the image
+      }}
+        className="d-flex justify-content-center align-items-center flex-column"
+      >
 
-      <img src={img} style={{ height: "187px", width:"159px", borderRadius: "77px", marginTop:"19px"}} alt="" />
+        <img src={img} style={{ height: "187px", width: "159px", borderRadius: "77px", marginTop: "19px" }} alt="" />
         <header>
 
-          <h1 className="py-4 mb-0">Al Rehmat Glass</h1>
+          <h1 className={` ${Styles.companyTitle} py-3 mb-0`}>
+            Al Rehmat Glass Pvt Ltd
+          </h1>
 
         </header>
         <div className="container mt-0">
-          <h1 className="text-center mb-2">Online Registration Form</h1>
-          <form id="CareerForm" onSubmit={(e)=> handleSubmit(e)} className="p-24">
+          <h1 className="text-center text-white text-bold mb-2">Apply for Open Roles</h1>
+          <form id="CareerForm" onSubmit={(e) => handleSubmit(e)} className="p-24">
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="name">Full Name</label>
+              <label className="m-1" htmlFor="name">Full Name</label>
               <input
                 type="text"
                 className="form-control"
@@ -139,32 +142,32 @@ export const Career = () => {
             </div>
 
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="mobileNo">Mobile Number</label>
+              <label className="m-1"  htmlFor="mobileNo">Mobile Number</label>
               <input
                 type="tel"
                 className="form-control"
                 id="mobile"
                 placeholder="Enter your Mobile Number"
-                
+
                 value={mobile}
                 onChange={(e) => setMobile(e.target.value)}
               />
             </div>
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="email">Email address</label>
+              <label className="m-1"  htmlFor="email">Email address</label>
               <input
                 type="email"
                 className="form-control"
                 id="email"
                 placeholder="Enter your Email (optional)"
-                
+
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
 
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="resume">Enter your current Location</label>
+              <label className="m-1"  htmlFor="resume">Enter your current Location</label>
               <input
                 type="text"
                 className="form-control"
@@ -176,7 +179,7 @@ export const Career = () => {
               />
             </div>
             <div className="form-group flex-nowrap form-control-sm">
-              <label htmlFor="jobcourse">Choose Glasses for </label>
+              <label className="m-1"  htmlFor="jobcourse">Which Position Are You Applying For?</label>
               <select
                 className="form-control"
                 id="jobcourse"
@@ -184,18 +187,72 @@ export const Career = () => {
                 onChange={(e) => setCourse(e.target.value)}
                 required
               >
-                <option value="">Select Glasses here</option>
-                <option value="Lamination Glass 6mm">Lamination Glass 6mm</option>
-                <option value="Class 6 Maths Only">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
-                <option value="Class 6 Maths + Computer">Lamination Glass 8mm</option>
+                <option value="">Select a Position</option>
 
 
-              
+                <optgroup label="Administration">
+                  <option value="HR Executive">HR Executive</option>
+                  <option value="Accounts Executive">Accounts Executive</option>
+                  <option value="Office Administrator">Office Administrator</option>
+                </optgroup>
+                <optgroup label="Sales & Marketing">
+                  <option value="Sales Executive">Sales Executive</option>
+                  <option value="Marketing Executive">Marketing Executive</option>
+                  <option value="Business Development Executive">Business Development Executive</option>
+                  <option value="Customer Support Executive">Customer Support Executive</option>
+                </optgroup>
+
+                <optgroup label="Production">
+                  <option value="Production Operator">Production Operator</option>
+                  <option value="Machine Operator">Machine Operator</option>
+                  <option value="Glass Cutting Operator">Glass Cutting Operator</option>
+                  <option value="Tempering Furnace Operator">Tempering Furnace Operator</option>
+                  <option value="Laminated Glass Operator">Laminated Glass Operator</option>
+                  <option value="Insulated Glass (DGU) Technician">Insulated Glass (DGU) Technician</option>
+                </optgroup>
+
+                <optgroup label="Quality">
+                  <option value="Quality Control Inspector">Quality Control Inspector</option>
+                  <option value="Quality Assurance Executive">Quality Assurance Executive</option>
+                </optgroup>
+                <optgroup label="IT Department">
+                  <option value="IT Support Executive">IT Support Executive</option>
+                  <option value="Software Developer">Software Developer</option>
+                  <option value="Web Developer">Web Developer</option>
+                  <option value="Frontend Developer">Frontend Developer</option>
+                  <option value="Backend Developer">Backend Developer</option>
+                  <option value="Full Stack Developer">Full Stack Developer</option>
+                  <option value="Network Administrator">Network Administrator</option>
+                  <option value="System Administrator">System Administrator</option>
+                  <option value="Database Administrator">Database Administrator</option>
+                  <option value="Data Entry Operator">Data Entry Operator</option>
+                </optgroup>
+                <optgroup label="Engineering & Maintenance">
+                  <option value="Production Engineer">Production Engineer</option>
+                  <option value="Glass Process Engineer">Glass Process Engineer</option>
+                  <option value="PLC & Automation Engineer">PLC & Automation Engineer</option>
+                  <option value="Machine Maintenance Technician">Machine Maintenance Technician</option>
+                  <option value="Utility Engineer">Utility Engineer</option>
+                  <option value="Plant Engineer">Plant Engineer</option>
+
+                </optgroup>
+
+
+
+                <optgroup label="Operations">
+                  <option value="Purchase Executive">Purchase Executive</option>
+                  <option value="Store Executive">Store Executive</option>
+                  <option value="Warehouse Supervisor">Warehouse Supervisor</option>
+                  <option value="Dispatch Coordinator">Dispatch Coordinator</option>
+                  <option value="other">Other</option>
+                </optgroup>
+
+
+
+
+
+
+
               </select>
             </div>
             <div className="d-flex align-items-center justify-content-center m-3">
