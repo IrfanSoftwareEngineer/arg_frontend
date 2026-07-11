@@ -29,7 +29,7 @@ const milliseconds = minutes * 60 * 1000;
       // Redirect to login page after 8 seconds
       const changeInterval = setTimeout(() => {
         navigate("/LogInPage");
-      }, 8000);
+      }, 60000);
 
       return () => clearTimeout(changeInterval);
     } else {

@@ -84,7 +84,10 @@ export const Career = () => {
 
       setEntries((oldData) => [...oldData, newEntry]);
 
-      const successMessage = `You have successfully Registered for ${response.data.course} Course. Our team will contact you shortly via your registered Mobile Number.`;
+
+      const successMessage = `You have successfully applied for the selected job position  ${response.data.course} at Al Rehmat Glass Pvt. Ltd.
+ Thank you for your interest in joining our team.
+  Our recruitment team will review your application and contact you shortly.`;
       setAlertMessage(successMessage);
       setAlertName(response.data.name);
       setShowAlertModal(true);
@@ -142,7 +145,7 @@ export const Career = () => {
             </div>
 
             <div className="form-group flex-nowrap form-control-sm">
-              <label className="m-1"  htmlFor="mobileNo">Mobile Number</label>
+              <label className="m-1" htmlFor="mobileNo">Mobile Number</label>
               <input
                 type="tel"
                 className="form-control"
@@ -154,7 +157,7 @@ export const Career = () => {
               />
             </div>
             <div className="form-group flex-nowrap form-control-sm">
-              <label className="m-1"  htmlFor="email">Email address</label>
+              <label className="m-1" htmlFor="email">Email address</label>
               <input
                 type="email"
                 className="form-control"
@@ -167,7 +170,7 @@ export const Career = () => {
             </div>
 
             <div className="form-group flex-nowrap form-control-sm">
-              <label className="m-1"  htmlFor="resume">Enter your current Location</label>
+              <label className="m-1" htmlFor="resume">Enter your current Location</label>
               <input
                 type="text"
                 className="form-control"
@@ -179,7 +182,7 @@ export const Career = () => {
               />
             </div>
             <div className="form-group flex-nowrap form-control-sm">
-              <label className="m-1"  htmlFor="jobcourse">Which Position Are You Applying For?</label>
+              <label className="m-1" htmlFor="jobcourse">Which Position Are You Applying For?</label>
               <select
                 className="form-control"
                 id="jobcourse"
@@ -208,7 +211,7 @@ export const Career = () => {
                   <option value="Glass Cutting Operator">Glass Cutting Operator</option>
                   <option value="Tempering Furnace Operator">Tempering Furnace Operator</option>
                   <option value="Laminated Glass Operator">Laminated Glass Operator</option>
-                  <option value="Insulated Glass (DGU) Technician">Insulated Glass (DGU) Technician</option>
+                 
                 </optgroup>
 
                 <optgroup label="Quality">
