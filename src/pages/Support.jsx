@@ -138,17 +138,9 @@ const Support = () => {
               Will Consider And Respond Back to You with Your Registered Email
               Account.
             </p>
-            {showSuccessMessage && (
-              <div
-                style={{ fontFamily: "monospace", fontSize: "3rem" }}
-                className="text-center"
-                id="formSubmission"
-              >
-                Form Submitted Successfully
-              </div>
-            )}
+         
 
-            <div id="liveAlertPlaceholder"></div>
+          <div id="liveAlertPlaceholder"></div>
 
             <form onSubmit={handleSubmit} className="mb-4">
               <div className="mb-3">
@@ -209,6 +201,17 @@ const Support = () => {
                 </button>
               </div>
             </form>
+               {showSuccessMessage && (
+              <div
+                style={{ fontFamily: "monospace", fontSize: "3rem" }}
+                className="text-center"
+                id="formSubmission"
+              >
+                Form Submitted Successfully
+                
+              </div>
+              
+            )}
           </section>
 
           {/* <section>
