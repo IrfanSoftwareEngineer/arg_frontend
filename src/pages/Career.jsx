@@ -8,6 +8,7 @@ import img1 from "../assets/m4.jpg";
 import Styles from "../css_modules/career.module.css";
 
 export const Career = () => {
+  //here useState is used to store the form data and the entries from the frontend.
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");

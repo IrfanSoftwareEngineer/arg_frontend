@@ -17,40 +17,39 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home></Home>}>
-          {" "}
         </Route>
         <Route path="/Home" element={<Home></Home>}>
-          {" "}
+
         </Route>
         <Route path="/Courses" element={<Courses></Courses>}>
-          {" "}
+  
         </Route>
         <Route path="/About" element={<About></About>}>
-          {" "}
+      
         </Route>
         <Route path="/Support" element={<Support></Support>}>
-          {" "}
+        
         </Route>
         <Route path="/Career" element={<Career></Career>}>
-          {" "}
+   
         </Route>
         <Route path="/LogInPage" element={<LogInPage></LogInPage>}>
-          {" "}
+   
         </Route>
         <Route path="/SignUpPage" element={<SignUpPage></SignUpPage>}>
-          {" "}
+
         </Route>
         <Route path="/CoursesSyllabus" element={<CoursesSyllabus></CoursesSyllabus>}>
-          {" "}
+  
         </Route>
          <Route path="/Courses/Class_9_IT" element={<Class_9_IT></Class_9_IT>}>
-          {" "}
+ 
         </Route>
           <Route path="/Courses/Class_11_CS" element={<Class_11_CS></Class_11_CS>}>
-          {" "}
+    
         </Route>
           <Route path="/Courses/Class_12_CS" element={<Class_12_CS></Class_12_CS>}>
-          {" "}
+    
         </Route>
       </Routes>
     </BrowserRouter>
