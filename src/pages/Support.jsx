@@ -8,7 +8,7 @@ const Support = () => {
   // Configure axios to use retry logic
   axiosRetry(api, { retries: 3 });
 
-  const [name, setName] = useState("irfan");// just for testing purpose i set default value of name to irfan but in real time it should be empty string like this useState("") and also for email and message state variable.
+  const [name, setName] = useState(""); // just for testing purpose i set default value of name to irfan but in real time it should be empty string like this useState("") and also for email and message state variable.
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [entries, setEntries] = useState([]);
