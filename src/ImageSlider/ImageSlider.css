@@ -1,0 +1,41 @@
+
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+   
+    width: 80%;
+    min-height: 100vh;
+    gap: 0;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slide img {
+     width: 61%;
+    height: 78vh;
+    display: block;
+    object-fit: fill;
+  
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+}
+
+.content h2 {
+    font-size: 40px;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.content button {
+    padding: 12px 30px;
+    cursor: pointer;
+}

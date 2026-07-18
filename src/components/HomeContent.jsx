@@ -11,7 +11,7 @@ import sm1 from "../assets/ArsadSirArg_5.png";
 import sm2 from "../assets/ArsadSirArg_4.png";
 import sm3 from "../assets/ArsadSirArg_6.png";
 import gift from "../assets/phone_gift_arg.jpeg";
-import logo from "../assets/arg_logo_1.jpeg";
+// import logo from "../assets/arg_logo_1.jpeg";
 
 //importing medium images here 
 import md1 from "../assets/ArsadSirbgimage2_medium.png";
@@ -112,6 +112,7 @@ const HomeContent = () => {
 
         </CenteredH1>
       </BackgroundDiv>
+      
       <PhoneGift />
       <GoogleVideos />
 

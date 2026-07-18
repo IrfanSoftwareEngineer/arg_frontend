@@ -10,13 +10,17 @@ import AppName from "../components/AppName";
 import GoogleVideos1 from "../components/GoogleVideos1";
 import ArgAdminTeam from "../components/ArgAdminTeam";
 
+import BuildingImages from "../data/TypesOfGlass";
+import Employee from "../data/Employee";
+import TextCard from "../data/TextCard";
+import ImageSlider from "../ImageSlider/ImageSlider";
 const Home = () => {
 
   const minutes = 5; // for 2 minutes
-const milliseconds = minutes * 60 * 1000;
+  const milliseconds = minutes * 60 * 1000;
   const navigate = useNavigate();
   const [isLogIn, setIsLogIn] = useState(() => {
-    
+
     const loginStatus = localStorage.getItem("isLogIn");
     return loginStatus === "true";
   });
@@ -44,14 +48,41 @@ const milliseconds = minutes * 60 * 1000;
 
   return (
     <>
-    {/* <AppName title="Al Rehmat Glass" /> */}
+      {/* <AppName title="Al Rehmat Glass" /> */}
       <Navbar />
       <HomeContent></HomeContent>
+
+
+
+      <ImageSlider
+        data={BuildingImages}
+        slidesPerView={1}
+        autoplay={false}
+        navigation={false}
+      />
+
+
+   
       <ServiceListCardView />
       <OurServices />
-      <GoogleVideos1/>
-      <ArgAdminTeam/>
-<ArgsalesTeam/>
+      
+      <ImageSlider
+        data={TextCard}
+        slidesPerView={1}
+        loop={false}
+        navigation={false}
+      />
+      <GoogleVideos1 />
+      <ArgAdminTeam />
+      <ArgsalesTeam />
+   <ImageSlider
+        data={Employee}
+        slidesPerView={1}
+        autoplay={true}
+        navigation={false}
+      />
+
+
 
       <Footer />
     </>
