@@ -1,8 +1,8 @@
 import img1 from "../assets/ClearFloatGlass.jpeg";
-import img2 from "../assets/w5.jpeg";
-import img3 from "../assets/w8.jpeg";
-import img4 from "../assets/w9.jpeg";
-import img5 from "../assets/w10.jpeg";
+import img2 from "../assets/ReflectiveGlass.jpeg";
+import img3 from "../assets/InsulatedGlass.jpeg";
+import img4 from "../assets/Toughened.jpeg";
+import img5 from "../assets/SolarControlGlass.jpeg";
 const TypesOfGlass = [
   {
     id: 1,

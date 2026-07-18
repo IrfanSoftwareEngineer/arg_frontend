@@ -14,6 +14,7 @@ import BuildingImages from "../data/TypesOfGlass";
 import Employee from "../data/Employee";
 import TextCard from "../data/TextCard";
 import ImageSlider from "../ImageSlider/ImageSlider";
+import TypesOfGlass from "../data/TypesOfGlass";
 const Home = () => {
 
   const minutes = 5; // for 2 minutes
@@ -55,9 +56,9 @@ const Home = () => {
 
 
       <ImageSlider
-        data={BuildingImages}
+        data={TypesOfGlass}
         slidesPerView={1}
-        autoplay={false}
+        autoplay={true}
         navigation={false}
       />
 

@@ -11,9 +11,9 @@ import "./ImageSlider.css";
 const ImageSlider = ({
   data,
   slidesPerView = 1,
-  navigation = false,
-  pagination = false,
-  // autoplay = false,
+  navigation = true,
+  pagination = true,
+  autoplay = true,
   loop = false,
 }) => {
   return (
@@ -21,14 +21,14 @@ const ImageSlider = ({
       modules={[Navigation, Pagination, Autoplay]}
       navigation={navigation}
       pagination={{ clickable: pagination }}
-      // autoplay={
-      //   autoplay
-      //     ? {
-      //         delay: 3000,
-      //         disableOnInteraction: false,
-      //       }
-      //     : false
-      // }
+      autoplay={
+        autoplay
+          ? {
+              delay: 3000,
+              disableOnInteraction: false,
+            }
+          : false
+      }
       slidesPerView={slidesPerView}
       loop={loop}
       spaceBetween={0}
