@@ -73,7 +73,7 @@ const Home = () => {
  <ImageSlider1
   data={TextCard}
   slidesPerView={1}
-  navigation={true}
+  navigation={false}
   pagination={true}
   autoplay={true}
   loop={true}
