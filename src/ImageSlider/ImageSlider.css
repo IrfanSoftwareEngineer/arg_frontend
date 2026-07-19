@@ -1,39 +1,100 @@
-
-
 .slide {
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
- 
+    gap: 40px;
     margin: 32px auto;
-  
+    width: 90%;
+    max-width: 1400px;
 }
 
 .slide img {
-  width: 61%;
-    height: 78vh;
-    display: block;
-    object-fit: fill;
-    border-radius: 7px;
-  
+      width:70%;
+    height:500px;
+    object-fit:contain;
 }
 
 .content {
-    width: 100%;
-    margin: 0;
+    flex: 1;
     padding: 40px;
 }
 
 .content h2 {
-    font-size: 40px;
+    font-size: clamp(2rem, 4vw, 2.5rem);
 }
 
 .content p {
     margin: 20px 0;
+    line-height: 1.8;
+    font-size: clamp(1rem, 2vw, 1.1rem);
 }
 
 .content button {
     padding: 12px 30px;
     cursor: pointer;
+}
+
+/* Large Laptop */
+@media (max-width: 1200px) {
+    .slide {
+        gap: 30px;
+    }
+
+    .slide img {
+        width: 48%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .slide {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .slide img {
+        width: 90%;
+        max-width: 650px;
+        max-height: 100vh;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .slide {
+        width: 95%;
+        gap: 20px;
+    }
+
+    .slide img {
+        width: 100%;
+        max-height: 100vh;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .content button {
+        width: 100%;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .slide img {
+        max-height: 100vh;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
 }

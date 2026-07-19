@@ -14,7 +14,10 @@ import BuildingImages from "../data/TypesOfGlass";
 import Employee from "../data/Employee";
 import TextCard from "../data/TextCard";
 import ImageSlider from "../ImageSlider/ImageSlider";
+import ImageSlider1 from "../ImageSlider/ImageSlider1";
 import TypesOfGlass from "../data/TypesOfGlass";
+
+import { Swiper, SwiperSlide } from "swiper/react";
 const Home = () => {
 
   const minutes = 5; // for 2 minutes
@@ -66,16 +69,20 @@ const Home = () => {
    
       <ServiceListCardView />
       <OurServices />
-      
-      <ImageSlider
-        data={TextCard}
-        slidesPerView={1}
-        loop={false}
-        navigation={false}
-      />
+
+ <ImageSlider1
+  data={TextCard}
+  slidesPerView={1}
+  navigation={true}
+  pagination={true}
+  autoplay={true}
+  loop={true}
+/>
+
       <GoogleVideos1 />
       <ArgAdminTeam />
       <ArgsalesTeam />
+   
    <ImageSlider
         data={Employee}
         slidesPerView={1}

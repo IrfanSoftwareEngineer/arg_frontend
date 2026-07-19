@@ -1,8 +1,8 @@
-import img1 from "../assets/w3.jpeg";
-import img2 from "../assets/w5.jpeg";
-import img3 from "../assets/w8.jpeg";
-import img4 from "../assets/w9.jpeg";
-import img5 from "../assets/w10.jpeg";
+import img1 from "../assets/w6.jpeg";
+import img2 from "../assets/w7.jpeg";
+import img3 from "../assets/w9.jpeg";
+import img4 from "../assets/w10.jpeg";
+import img5 from "../assets/w2.jpeg";
 const Employee = [
   {
     id: 1,
