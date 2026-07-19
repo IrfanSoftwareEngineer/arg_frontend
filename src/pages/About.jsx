@@ -26,7 +26,7 @@ export const About = () => {
       {/* <hr /> */}
 
       {/* About Section */}
-      <section className="bg-light py-5">
+      <section className="bg-light py-5 px-2">
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-lg-8">
@@ -63,9 +63,9 @@ export const About = () => {
                   letterSpacing: "0.3px",
                 }}
               >
-                Welcome to Al Rehmat Glass Pvt. Ltd.
+                Welcome to Al Rehmat Glass Pvt Ltd.
 
-                Welcome to **Al Rehmat Glass Pvt. Ltd.**, a trusted name in the glass processing
+                a trusted name in the glass processing
                 industry, dedicated to delivering premium-quality glass
                 solutions for residential, commercial, and industrial projects.
               </p>
@@ -82,7 +82,7 @@ export const About = () => {
                   letterSpacing: "0.3px",
                 }}
               >
-                Our journey began with a simple vision—to provide durable, innovative, and high-performance
+                Our journey began with a simple vision to provide durable, innovative, and high-performance
                 glass products that combine safety, strength, and modern aesthetics. Over the years,
                 we have built a
                 reputation for excellence by offering precision-engineered glass products
@@ -102,10 +102,10 @@ export const About = () => {
                   letterSpacing: "0.3px",
                 }}
               >
-                At Al Rehmat Glass Pvt. Ltd., we specialize in processing a wide range of architectural
-                and decorative glass solutions, including **Toughened (Tempered) Glass, Laminated Safety Glass,
+                At Al Rehmat Glass Pvt Ltd, We specialize in processing a wide range of architectural
+                and decorative glass solutions, including Toughened(Tempered) Glass, Laminated Safety Glass,
                 Double Glazed Units (DGU), Insulated Glass, Decorative Glass, Frosted Glass, Reflective Glass,
-                Tinted Glass, and Custom Glass Solutions**.
+                Tinted Glass, and Custom Glass Solutions.
                 Every product is manufactured using advanced technology, modern machinery,
                 and strict quality control processes to ensure exceptional durability, safety, and performance.
               </p>
@@ -169,7 +169,7 @@ export const About = () => {
                   lineHeight: "1.6",
                   letterSpacing: "0.3px",
                 }}
-              >   As the construction and architectural industries continue to evolve, Al Rehmat Glass Pvt. Ltd.
+              >   As the construction and architectural industries continue to evolve, Al Rehmat Glass
               remains committed to adopting the latest technologies and sustainable practices to
               deliver energy-efficient and environmentally responsible glass solutions that
               contribute to modern infrastructure.</p>
@@ -186,7 +186,7 @@ export const About = () => {
                 }}
               >  Whether you need glass for windows, doors, facades, partitions, railings, shower enclosures,
               skylights, storefronts, curtain walls, or specialized architectural applications,
-              Al Rehmat Glass Pvt. Ltd. is your trusted partner for quality, innovation, and excellence.</p>
+              Al Rehmat Glass is your trusted partner for quality, innovation, and excellence.</p>
             
               <p
                 className="mt-4"
@@ -198,7 +198,7 @@ export const About = () => {
                   lineHeight: "1.6",
                   letterSpacing: "0.3px",
                 }}
-              >    We don't just process glass—we create solutions that bring strength, safety,
+              >    We don't just process glass. We create solutions that bring strength, safety,
               elegance, and lasting value to every space.</p>
           
               <p
@@ -211,9 +211,9 @@ export const About = () => {
                   lineHeight: "1.6",
                   letterSpacing: "0.3px",
                 }}
-              >  **Thank you for choosing Al Rehmat Glass Pvt. Ltd. We look forward to being a part
+              > Thank you for choosing Al Rehmat Glass Pvt Ltd. We look forward to being a part
               of your success and helping you build spaces that inspire confidence, beauty,
-              and innovation.*</p>
+              and innovation.</p>
             
               <p
                 className="mt-4"
