@@ -11,7 +11,7 @@ const GoogleVideos1 = () => {
 
       <div className={`${Styles.imageContainer}`}>
 
-{/* 
+
    
         <video
           width="100%"
@@ -22,7 +22,7 @@ const GoogleVideos1 = () => {
         >
           <source src={vid5} type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
 
     
 
