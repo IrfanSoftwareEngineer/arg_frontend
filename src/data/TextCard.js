@@ -12,49 +12,49 @@ const TextCard = [
     image: img1,
     title: "Meet up with Founder of Lingel Windows & Doors",
     description:
-      "Mr. Karl Lingel,founder of Lingel Windows and Doors,Germany and Dr.Mario Schmidt,Managing Director,Exploring innovation at Alrehmat Glass during a transformative Factory Visit."
+      "Mr. Karl Lingel, Founder of Lingel Windows & Doors, Germany, and Dr. Mario Schmidt, Managing Director, visited Al Rehmat Glass to explore innovation, advanced manufacturing processes, and future collaboration opportunities during a transformative factory visit."
   },
   {
     id: 2,
     image: img2,
     title: "Visited at SAINT GOBAIN",
     description:
-      "An Insightful visit to Saint-Gobain's facility with our Managing Director Arshad Parvez and Mr.Satish Ghildyal,Head SCM at Fenesta Building Systems. Exploring Innovations, Strengthening partnerships, and gaining valuable industry insights!"
+      "An insightful visit to Saint-Gobain's facility with our Managing Director, Mr. Arshad Parvez, and Mr. Satish Ghildyal, Head SCM at Fenesta Building Systems. Exploring innovations, strengthening partnerships, exchanging industry knowledge, and gaining valuable insights into modern glass manufacturing technologies."
   },
   {
     id: 3,
     image: img3,
     title: "Plantation at Our Factory",
     description:
-      "it was greatful experience to foster the environment with full of excitement inorder to make our society healthy"
+      "A memorable plantation drive at our factory reflecting our commitment towards environmental sustainability and a greener future. Together with our dedicated team, we planted trees to promote a healthier society, create a cleaner environment, and inspire responsible industrial growth for future generations."
   },
   {
     id: 4,
     image: img4,
-    title: "Extracting Soil with tool",
+    title: "Extracting Soil with Tool",
     description:
-      "Energy-efficient façade glass designed to deliver outstanding aesthetics and insulation."
+      "Preparing the foundation with precision through soil extraction using advanced equipment. This essential process supports future plantation activities while ensuring proper land preparation, sustainable development, and a strong commitment to environmental responsibility."
   },
   {
     id: 5,
     image: img5,
     title: "Our Team at ARG",
     description:
-      "Best Moment Captured with Our ARG team. without their effort we can't exist Thank you ARG Team."
+      "A wonderful moment captured with our dedicated ARG family. Every achievement reflects the passion, teamwork, and commitment of our employees whose continuous efforts drive our success. We sincerely thank each team member for being an integral part of our journey."
   },
-    {
+  {
     id: 6,
     image: img6,
     title: "Our Team at ARG",
     description:
-      "Best Moment Captured with Our ARG team. without their effort we can't exist Thank you ARG Team."
+      "Celebrating togetherness, dedication, and the spirit of teamwork at Al Rehmat Glass. Our people are our greatest strength, working with excellence and determination every day to deliver quality products and build lasting relationships with our valued customers."
   },
-    {
+  {
     id: 7,
     image: img7,
-    title: "Our Team at ARG",
+    title: "Leadership Visit at ARG",
     description:
-      "A proud moment for Al Rehmat Glass! We had the privilege of hosting Mr.N. Sreedhar,CEO - Asia Pacific & India, Saint Gobain Group, Mr. Anand Sanathanam, Executive Director - Saint Gobain India Pvt Ltd. and Dr. Mario Schmidt, Managing Director - Lingel Windows and Doors. Their visit marks a significant milestone in our journey of innovation, quality, and collaboration within the glass and fenestration industry."
+      "A proud moment for Al Rehmat Glass as we welcomed Mr. N. Sreedhar, CEO – Asia Pacific & India, Saint-Gobain Group, Mr. Anand Santhanam, Executive Director – Saint-Gobain India Pvt. Ltd., and Dr. Mario Schmidt, Managing Director – Lingel Windows & Doors. Their visit strengthened our shared vision of innovation, quality, technological excellence, and long-term collaboration in the glass and fenestration industry."
   },
 ];
 
