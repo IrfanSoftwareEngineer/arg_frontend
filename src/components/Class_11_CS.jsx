@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Class_9_IT from './Class_9_IT';
 
 const Class_11_CS = () => {
     return (
         <>
-            <Navbar></Navbar>
-      <div>this page is under construction</div>
-            <Footer></Footer>
+      
+             <Class_9_IT/>
+     
         </>
     )
 }

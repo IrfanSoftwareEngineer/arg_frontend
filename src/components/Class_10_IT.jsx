@@ -2,12 +2,15 @@ import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Class_9_IT from './Class_9_IT';
-const Class_12_CS = () => {
+
+const Class_10_IT = () => {
     return (
         <>
-        <Class_9_IT/>
+      
+             <Class_9_IT/>
+     
         </>
     )
 }
 
-export default Class_12_CS;
+export default Class_10_IT;

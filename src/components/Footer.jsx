@@ -397,7 +397,7 @@ const Footer = () => {
         <div class="footer-foot " style={{ background: "#b9cacf" }}>
           <div class="container">
             <p class="text-center p-3 mb-0 ">
-              Copyright © 2026 - Developed by Irfan Foundation. All Rights Reserved.
+              Copyright © 2026 - Developed by Irfan Khan. All Rights Reserved.
 
             </p>
           </div>
