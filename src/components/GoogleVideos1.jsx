@@ -10,9 +10,7 @@ const GoogleVideos1 = () => {
 
 
       <div className={`${Styles.imageContainer}`}>
-        <h1 style={{ color: "red", fontSize: "40px" }}>
-          GOOGLE VIDEO SECTION
-        </h1>
+    
 
 
         <video

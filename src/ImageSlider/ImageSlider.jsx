@@ -12,7 +12,7 @@ const ImageSlider = ({
   data,
   slidesPerView = 1,
   navigation = true,
-  pagination = true,
+  pagination = false,
   autoplay = true,
   loop = false,
 }) => {
