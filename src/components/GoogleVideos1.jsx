@@ -15,11 +15,12 @@ const GoogleVideos1 = () => {
 
         <video
 
-          width="100%"
-          height="100%"
-          loop
-          autoPlay
-          muted
+         autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  controls
         >
           <source src={vid5} type="video/mp4" />
           Your browser does not support the video tag.
