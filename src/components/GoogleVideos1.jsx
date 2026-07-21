@@ -10,17 +10,17 @@ const GoogleVideos1 = () => {
 
 
       <div className={`${Styles.imageContainer}`}>
-    
+
 
 
         <video
 
-         autoPlay
-  muted
-  loop
-  playsInline
-  preload="auto"
-  controls
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+
         >
           <source src={vid5} type="video/mp4" />
           Your browser does not support the video tag.
