@@ -19,9 +19,7 @@ const GoogleVideos1 = () => {
         ref={videoRef}
         autoPlay
         muted
-        loop
-        playsInline
-        preload="metadata"
+        loop    
       >
         <source src={vid5} type="video/mp4" />
       </video>
