@@ -112,7 +112,7 @@ const HomeContent = () => {
 
         </CenteredH1>
       </BackgroundDiv>
-      
+      <GoogleVideos />
       <PhoneGift />
     
 

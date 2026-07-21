@@ -18,6 +18,7 @@ import ImageSlider1 from "../ImageSlider/ImageSlider1";
 import TypesOfGlass from "../data/TypesOfGlass";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+
 const Home = () => {
 
   const minutes = 5; // for 2 minutes
