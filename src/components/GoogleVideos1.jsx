@@ -10,10 +10,13 @@ const GoogleVideos1 = () => {
 
 
       <div className={`${Styles.imageContainer}`}>
+        <h1 style={{ color: "red", fontSize: "40px" }}>
+          GOOGLE VIDEO SECTION
+        </h1>
 
 
-   
         <video
+
           width="100%"
           height="100%"
           loop
@@ -24,7 +27,7 @@ const GoogleVideos1 = () => {
           Your browser does not support the video tag.
         </video>
 
-    
+
 
 
 
