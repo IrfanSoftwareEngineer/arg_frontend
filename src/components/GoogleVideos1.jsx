@@ -19,7 +19,8 @@ const GoogleVideos1 = () => {
         ref={videoRef}
         autoPlay
         muted
-        loop    
+        loop
+        playsInline    
       >
         <source src={vid5} type="video/mp4" />
       </video>
