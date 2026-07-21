@@ -34,7 +34,7 @@ const ImageSlider1 = ({
             <div className="card-content">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              <button>Explore More</button>
+             <button className="explore-btn">Explore More</button>
             </div>
           </div>
         </SwiperSlide>
