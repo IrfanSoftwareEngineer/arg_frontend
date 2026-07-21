@@ -79,7 +79,7 @@ const Home = () => {
   loop={true}
 />
 
-      <GoogleVideos1 />
+    
       <ArgAdminTeam />
       <ArgsalesTeam />
    
@@ -90,7 +90,7 @@ const Home = () => {
         navigation={false}
       />
 
-
+  <GoogleVideos1 />
 
       <Footer />
     </>

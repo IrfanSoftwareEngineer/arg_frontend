@@ -114,7 +114,7 @@ const HomeContent = () => {
       </BackgroundDiv>
       
       <PhoneGift />
-      <GoogleVideos />
+    
 
       <div
         id="background"
