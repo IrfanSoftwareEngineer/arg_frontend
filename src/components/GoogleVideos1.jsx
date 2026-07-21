@@ -16,12 +16,11 @@ const GoogleVideos1 = () => {
   return (
     <div className={Styles.imageContainer}>
       <video
-        ref={videoRef}
-        autoPlay
-        muted
-        loop
-        playsInline   
-        controls 
+          width="100%"
+          height="100%"
+          controls
+          autoPlay
+          loop
       >
         <source src={vid5} type="video/mp4" />
       </video>
