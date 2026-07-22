@@ -18,9 +18,10 @@ const GoogleVideos1 = () => {
       <video
           width="100%"
           height="100%"
-          controls
+         playsInline
           autoPlay
           loop
+          muted
       >
         <source src={vid5} type="video/mp4" />
       </video>
